@@ -816,7 +816,7 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="#">
+                <a href="https://www.catherinecbse.info/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -825,7 +825,7 @@
                     <img src="./project-1.jpg" alt="finance" loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Finance</h3>
+                  <h3 class="project-title">Educational</h3>
 
                   <p class="project-category">Web development</p>
                 </a>
@@ -836,7 +836,7 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="#">
+                <a href="https://thefloortraders.io/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -845,7 +845,7 @@
                     <img src="./project-2.png" alt="orizon" loading="lazy" />
                   </figure>
 
-                  <h3 class="project-title">Orizon</h3>
+                  <h3 class="project-title">Finance</h3>
 
                   <p class="project-category">Web development</p>
                 </a>
