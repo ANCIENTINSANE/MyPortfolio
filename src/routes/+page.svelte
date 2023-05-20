@@ -204,19 +204,17 @@
 
           <section class="about-text">
             <p>
-              I'm Creative Director and UI/UX Designer from Sydney, Australia,
-              working in web development and print media. I enjoy turning
-              complex problems into simple, beautiful and intuitive designs.
+              Hello and welcome to my portfolio! I am Surendra, a dynamic and multi-talented professional specializing in UI/UX design, Svelte Kit development, and Flutter app development. With a keen eye for design and a strong technical background, I am dedicated to creating exceptional digital experiences that captivate users and push boundaries.
             </p>
 
             <p>
-              My job is to build your website so that it is functional and
-              user-friendly but at the same time attractive. Moreover, I add
-              personal touch to your product and make sure that is eye-catching
-              and easy to use. My aim is to bring across your message and
-              identity in the most creative way. I created web design for many
-              famous brand companies.
+              As a UI/UX designer, I have a deep understanding of user-centered design principles and strive to create interfaces that are not only visually appealing but also intuitive and seamless. I believe that the user experience is the heart and soul of any application, and my goal is to craft designs that make a lasting impact. From conducting user research and creating wireframes to prototyping and user testing, I am meticulous in my approach to ensure that every interaction is purposeful and engaging.
             </p>
+
+            <p>In addition to my design expertise, I specialize in Svelte Kit development. With its simplicity and performance advantages, Svelte Kit has become my go-to framework for creating fast and efficient web applications. I have a strong command over HTML, CSS, and JavaScript, and I leverage the power of Svelte Kit to build responsive and scalable interfaces that deliver an outstanding user experience across various devices and platforms.</p>
+          
+            <p>Furthermore, my proficiency in Flutter development allows me to create beautiful and feature-rich mobile applications. Flutter's expressive UI toolkit and hot reload functionality enable me to rapidly iterate and refine designs, resulting in polished and visually striking apps. Whether it's building native iOS or Android applications or developing cross-platform solutions, I am well-versed in Flutter's capabilities and can bring your ideas to life with finesse.</p>
+
           </section>
 
           <!--
