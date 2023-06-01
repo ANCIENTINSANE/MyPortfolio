@@ -183,9 +183,7 @@
               <button class="navbar-link" data-nav-link>Portfolio</button>
             </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
+           
 
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Contact</button>
@@ -214,7 +212,7 @@
             <p>In addition to my design expertise, I specialize in Svelte Kit development. With its simplicity and performance advantages, Svelte Kit has become my go-to framework for creating fast and efficient web applications. I have a strong command over HTML, CSS, and JavaScript, and I leverage the power of Svelte Kit to build responsive and scalable interfaces that deliver an outstanding user experience across various devices and platforms.</p>
           
             <p>Furthermore, my proficiency in Flutter development allows me to create beautiful and feature-rich mobile applications. Flutter's expressive UI toolkit and hot reload functionality enable me to rapidly iterate and refine designs, resulting in polished and visually striking apps. Whether it's building native iOS or Android applications or developing cross-platform solutions, I am well-versed in Flutter's capabilities and can bring your ideas to life with finesse.</p>
-
+            
           </section>
 
           <!--
@@ -308,7 +306,7 @@
                   <figure class="testimonials-avatar-box">
                     <img
                       src="./avatar-1.png"
-                      alt="Daniel lewis"
+                      alt="Ramakrishna Cherukuri"
                       width="60"
                       data-testimonials-avatar
                     />
@@ -318,17 +316,12 @@
                     class="h4 testimonials-item-title"
                     data-testimonials-title
                   >
-                    Daniel lewis
+                    Ramakrishna Cherukuri
                   </h4>
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
+                      "I am extremely impressed with Surendra exceptional coding skills and attention to detail. They delivered high-quality work within the given timeframe, exceeding my expectations."
                     </p>
                   </div>
                 </div>
@@ -349,17 +342,12 @@
                     class="h4 testimonials-item-title"
                     data-testimonials-title
                   >
-                    Jessica miller
+                    Tejaswini Karri
                   </h4>
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
+                      "Surendra's innovative thinking and problem-solving abilities have been instrumental in transforming our project into a seamless and efficient system. Their dedication and professionalism make them a valuable asset to any development team."
                     </p>
                   </div>
                 </div>
@@ -385,12 +373,7 @@
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
+                      Surendra is an exceptional designer who brings creativity and precision to every project. His attention to detail and innovative approach make him a true asset in the world of design.
                     </p>
                   </div>
                 </div>
@@ -411,17 +394,12 @@
                     class="h4 testimonials-item-title"
                     data-testimonials-title
                   >
-                    Henry william
+                  Amit Singhania
                   </h4>
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
-                      Richard was hired to create a corporate identity. We were
-                      very pleased with the work done. She has a lot of
-                      experience and is very concerned about the needs of
-                      client. Lorem ipsum dolor sit amet, ullamcous cididt
-                      consectetur adipiscing elit, seds do et eiusmod tempor
-                      incididunt ut laborels dolore magnarels alia.
+                      Surendra is a talented app developer who consistently delivers high-quality and user-friendly applications. His technical expertise and commitment to excellence make him a valuable addition to any development team.
                     </p>
                   </div>
                 </div>
@@ -457,7 +435,6 @@
               <div class="modal-content">
                 <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
-                <time datetime="2021-06-14">14 June, 2022</time>
 
                 <div data-modal-text>
                   <p>
@@ -477,7 +454,7 @@
           - clients
         -->
 
-          <section class="clients">
+          <!-- <section class="clients">
             <h3 class="h3 clients-title">Clients</h3>
 
             <ul class="clients-list has-scrollbar">
@@ -517,7 +494,7 @@
                 </a>
               </li>
             </ul>
-          </section>
+          </section> -->
         </article>
 
         <!--
@@ -547,9 +524,7 @@
                 <span>2012 — 2017</span>
 
                 <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                  Attending Abhyas, The Global School was a transformative experience that broadened my horizons. The school's emphasis on global perspectives and cultural exchange allowed me to connect with students from diverse backgrounds, fostering a deep appreciation for diversity. The nurturing environment, coupled with innovative teaching methods, equipped me with the skills and mindset to thrive in an interconnected world.
                 </p>
               </li>
 
@@ -559,8 +534,7 @@
                 <span>2017 — 2019</span>
 
                 <p class="timeline-text">
-                  Ratione voluptatem sequi nesciunt, facere quisquams facere
-                  menda ossimus, omnis voluptas assumenda est omnis..
+                  My time at Sri Gayatri Educational Institution  was a truly enriching experience. The college's dedicated faculty and comprehensive curriculum provided me with a strong foundation for higher education. The supportive and inclusive environment fostered my personal and academic growth, preparing me for future success.
                 </p>
               </li>
 
@@ -572,9 +546,7 @@
                 <span>2019 — 2023</span>
 
                 <p class="timeline-text">
-                  Duis aute irure dolor in reprehenderit in voluptate, quila
-                  voluptas mag odit aut fugit, sed consequuntur magni dolores
-                  eos.
+                  My experience at BITS Vizag was truly transformative. The college's dynamic and interdisciplinary approach to education opened doors to new perspectives and opportunities. The vibrant campus community, along with exceptional faculty and resources, nurtured my personal and intellectual growth, shaping me into a well-rounded individual ready to make a positive impact in the world.
                 </p>
               </li>
             </ol>
@@ -596,9 +568,7 @@
                 <span>2021 — Present</span>
 
                 <p class="timeline-text">
-                  Nemo enim ipsam voluptatem blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et qvuas molestias
-                  exceptur.
+                  Over the past few years, my journey in mobile app development has been a thrilling and ever-evolving experience. From mastering popular frameworks and languages to adapting to the latest design trends and user preferences, I have witnessed the constant evolution of the industry. The experience has not only honed my technical skills but also taught me the importance of user-centric design and seamless functionality, ultimately creating impactful and user-friendly mobile applications.
                 </p>
               </li>
 
@@ -608,9 +578,7 @@
                 <span>2018 — 2022</span>
 
                 <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                  Since 2018, my journey in web development has been a dynamic and transformative experience. From mastering HTML, CSS, and JavaScript to exploring modern frameworks and libraries, I have witnessed the rapid evolution of web technologies. With each project, I have gained valuable insights into creating responsive and visually appealing websites, while also prioritizing performance and user experience.
                 </p>
               </li>
 
@@ -620,9 +588,7 @@
                 <span>2017-2021</span>
 
                 <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                  Over the years, my experience in UI/UX designing has been an exciting and rewarding journey. From understanding user needs and conducting thorough research to creating visually stunning and intuitive interfaces, I have honed my skills in crafting seamless user experiences. Embracing design thinking principles and staying updated with emerging trends have allowed me to consistently deliver designs that delight users and drive meaningful engagement.
                 </p>
               </li>
             </ol>
@@ -706,9 +672,7 @@
                 <span>2022</span>
 
                 <p class="timeline-text">
-                  Nemo enim ipsam voluptatem blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et qvuas molestias
-                  exceptur.
+                  KONKORDE, my coding services, offer innovative solutions tailored to your unique needs. With a passion for precision and efficiency, I specialize in developing robust software and applications that empower businesses to thrive in the digital realm. Experience the seamless synergy of cutting-edge technology and meticulous craftsmanship with KONKORDE.
                 </p>
               </li>
 
@@ -718,9 +682,7 @@
                 <span>2017</span>
 
                 <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                  Participating in the 2017 Netball National Championship was an exhilarating experience that showcased the highest level of talent and sportsmanship. The intense competition and camaraderie among teams created an electrifying atmosphere, fueling our determination to give our best on the court. The event served as a platform for personal growth, teamwork, and unforgettable memories that will forever be cherished.
                 </p>
               </li>
 
@@ -730,9 +692,7 @@
                 <span>2014</span>
 
                 <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                  Participating in the 2014 National Open Karate Do Championship-Solo was a thrilling and rewarding experience. The intense training, discipline, and dedication paid off as I clinched the silver medal, showcasing my skill and determination. The event not only bolstered my confidence but also provided an opportunity to connect with fellow karate practitioners and learn from their expertise.
                 </p>
               </li>
               <li class="timeline-item">
@@ -741,9 +701,7 @@
                 <span>2014</span>
 
                 <p class="timeline-text">
-                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
-                  delenit atque corrupti, quos dolores et quas molestias
-                  exceptur.
+                  In addition to winning silver in the individual category, I also had the privilege of contributing to my team's success, securing another silver medal in the team event at the 2014 National Open Karate Do Championship. The camaraderie, synchronized movements, and collective effort demonstrated during the team competition were truly memorable and reinforced the power of unity and collaboration. The experience further solidified my passion for karate and the joy of achieving goals as a part of a dedicated team.
                 </p>
               </li>
             </ol>
