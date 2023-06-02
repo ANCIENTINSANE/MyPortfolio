@@ -9,7 +9,7 @@
     <!--
     - favicon
   -->
-    <link rel="shortcut icon" href="./avatar-1.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./my-avatar.png" type="image/x-icon" />
 
     <!--
     - custom css link
@@ -44,7 +44,7 @@
           </figure>
 
           <div class="info-content">
-            <h1 class="name" title="Richard hanrick">Surendra Kumar M</h1>
+            <h1 class="name" title="Surendra  Kumar M">Surendra Kumar M</h1>
 
             <p class="title">Mobile & Web developer</p>
           </div>
@@ -123,6 +123,15 @@
             </li> -->
 
             <li class="social-item">
+              <a
+                href="mailto:surendram.dev@gmail.com"
+                class="social-link"
+              >
+              <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
               <a href="https://twitter.com/ANCIENTINSANE" class="social-link">
                 <ion-icon name="logo-twitter" />
               </a>
@@ -155,6 +164,7 @@
               </a>
             </li>
 
+            
 
           </ul>
         </div>
