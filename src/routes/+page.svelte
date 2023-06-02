@@ -116,11 +116,11 @@
           <div class="separator" />
 
           <ul class="social-list">
-            <li class="social-item">
+            <!-- <li class="social-item">
               <a href="#" class="social-link">
                 <ion-icon name="logo-facebook" />
               </a>
-            </li>
+            </li> -->
 
             <li class="social-item">
               <a href="https://twitter.com/ANCIENTINSANE" class="social-link">
