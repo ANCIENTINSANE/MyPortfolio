@@ -220,7 +220,7 @@
         -->
 
           <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+            <h3 class="h3 service-title font-bold">What i'm doing</h3>
 
             <ul class="service-list">
               <li class="service-item">
@@ -298,7 +298,7 @@
         -->
 
           <section class="testimonials">
-            <h3 class="h3 testimonials-title">Testimonials</h3>
+            <h3 class="h3 testimonials-title font-bold">Testimonials</h3>
 
             <ul class="testimonials-list has-scrollbar">
               <li class="testimonials-item">
@@ -512,23 +512,23 @@
                 <ion-icon name="book-outline" />
               </div>
 
-              <h3 class="h3">Education</h3>
+              <h3 class="h3 font-bold">Education</h3>
             </div>
 
             <ol class="timeline-list">
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
+                <h4 class="h4 timeline-item-title font-bold">
                   Abhyas The Global School
                 </h4>
 
                 <span>2012 — 2017</span>
 
-                <p class="timeline-text">
+                <p class="timeline-text ">
                   Attending Abhyas, The Global School was a transformative experience that broadened my horizons. The school's emphasis on global perspectives and cultural exchange allowed me to connect with students from diverse backgrounds, fostering a deep appreciation for diversity. The nurturing environment, coupled with innovative teaching methods, equipped me with the skills and mindset to thrive in an interconnected world.
                 </p>
               </li>
 
-              <li class="timeline-item">
+              <li class="timeline-item font-bold">
                 <h4 class="h4 timeline-item-title">Sri Gayatri Educational Institutions</h4>
 
                 <span>2017 — 2019</span>
@@ -539,7 +539,7 @@
               </li>
 
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
+                <h4 class="h4 timeline-item-title font-bold">
                   BITS Vizag
                 </h4>
 
@@ -558,12 +558,12 @@
                 <ion-icon name="book-outline" />
               </div>
 
-              <h3 class="h3">Experience</h3>
+              <h3 class="h3 font-bold">Experience</h3>
             </div>
 
             <ol class="timeline-list">
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Mobile Application Developer</h4>
+                <h4 class="h4 timeline-item-title font-bold">Mobile Application Developer</h4>
 
                 <span>2021 — Present</span>
 
@@ -573,7 +573,7 @@
               </li>
 
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Web Developer</h4>
+                <h4 class="h4 timeline-item-title font-bold">Web Developer</h4>
 
                 <span>2018 — 2022</span>
 
@@ -583,7 +583,7 @@
               </li>
 
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">UI/UX Designer</h4>
+                <h4 class="h4 timeline-item-title font-bold">UI/UX Designer</h4>
 
                 <span>2017-2021</span>
 
@@ -595,7 +595,7 @@
           </section>
 
           <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
+            <h3 class="h3 skills-title font-bold">My skills</h3>
 
             <ul class="skills-list content-card">
               <li class="skills-item">
@@ -662,12 +662,12 @@
                 <ion-icon name="book-outline" />
               </div>
 
-              <h3 class="h3">Awards & Achievements</h3>
+              <h3 class="h3 font-bold">Awards & Achievements</h3>
             </div>
 
             <ol class="timeline-list">
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Started Own Coding Services</h4>
+                <h4 class="h4 timeline-item-title font-bold">Started Own Coding Services</h4>
 
                 <span>2022</span>
 
@@ -676,7 +676,7 @@
                 </p>
               </li>
 
-              <li class="timeline-item">
+              <li class="timeline-item font-bold">
                 <h4 class="h4 timeline-item-title">Netball National Championship</h4>
 
                 <span>2017</span>
@@ -687,7 +687,7 @@
               </li>
 
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">National Open Karate Do Championship-Solo (Runner)</h4>
+                <h4 class="h4 timeline-item-title font-bold">National Open Karate Do Championship-Solo (Runner)</h4>
 
                 <span>2014</span>
 
@@ -696,7 +696,7 @@
                 </p>
               </li>
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">National Open Karate Do Championship-Team (Runner)</h4>
+                <h4 class="h4 timeline-item-title font-bold">National Open Karate Do Championship-Team (Runner)</h4>
 
                 <span>2014</span>
 
