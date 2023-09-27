@@ -108,7 +108,7 @@
               <div class="contact-info">
                 <p class="contact-title">Location</p>
 
-                <address>Andhra Pradesh, India</address>
+                <address>India</address>
               </div>
             </li>
           </ul>
@@ -802,6 +802,47 @@
                 data-filter-item
                 data-category="web development"
               >
+                <a href="http://catherine-group-ssc.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline" />
+                    </div>
+
+                    <img src="./Cath-ssc.png" alt="finance" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Educational</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="http://catherine-group-college.vercel.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline" />
+                    </div>
+
+                    <img src="./Cath-clg.jpg" alt="finance" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Educational</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
                 <a href="https://thefloortraders.io/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
@@ -1177,7 +1218,7 @@
             <figure>
               <!-- svelte-ignore a11y-missing-attribute -->
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d298523.93840925634!2d83.07741021830506!3d17.809128574044014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1680773388231!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.90510291935!2d78.24323598526624!3d17.41260863717018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1695796599886!5m2!1sen!2sin"
                 width="400"
                 height="300"
                 loading="lazy"
@@ -1188,7 +1229,7 @@
           <section class="contact-form">
             <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="#" class="form" data-form>
+            <form action="#" class="form" method="post" data-form>
               <div class="input-wrapper">
                 <input
                   type="text"
