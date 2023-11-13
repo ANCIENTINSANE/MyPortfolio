@@ -46,7 +46,7 @@
           <div class="info-content">
             <h1 class="name" title="Surendra  Kumar M">Surendra Kumar M</h1>
 
-            <p class="title">Mobile & Web developer</p>
+            <p class="title">UI/UX & Full Stack Developer</p>
           </div>
 
           <button class="info_more-btn" data-sidebar-btn>
@@ -61,9 +61,11 @@
 
           <ul class="contacts-list">
             <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline" />
-              </div>
+              <a href="mailto:surendram.dev@gmail.com">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline" />
+                </div>
+              </a>
 
               <div class="contact-info">
                 <p class="contact-title">Email</p>
@@ -75,9 +77,11 @@
             </li>
 
             <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline" />
-              </div>
+              <a href="tel:+919160086748">
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline" />
+                </div>
+              </a>
 
               <div class="contact-info">
                 <p class="contact-title">Phone</p>
@@ -469,37 +473,37 @@
 
             <ul class="clients-list has-scrollbar">
               <li class="clients-item">
-                <a href="#">
+                <a href="">
                   <img src="./logo-1-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="#">
+                <a href="">
                   <img src="./logo-2-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="#">
+                <a href="">
                   <img src="./logo-3-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="#">
+                <a href="">
                   <img src="./logo-4-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="#">
+                <a href="">
                   <img src="./logo-5-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="#">
+                <a href="">
                   <img src="./logo-6-color.png" alt="client logo" />
                 </a>
               </li>
@@ -575,7 +579,7 @@
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title font-bold">Mobile Application Developer</h4>
 
-                <span>2021 — Present</span>
+                <!-- <span>2021 — Present</span> -->
 
                 <p class="timeline-text">
                   Over the past few years, my journey in mobile app development has been a thrilling and ever-evolving experience. From mastering popular frameworks and languages to adapting to the latest design trends and user preferences, I have witnessed the constant evolution of the industry. The experience has not only honed my technical skills but also taught me the importance of user-centric design and seamless functionality, ultimately creating impactful and user-friendly mobile applications.
@@ -585,17 +589,18 @@
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title font-bold">Web Developer</h4>
 
-                <span>2018 — 2022</span>
+                <!-- <span>2018 — 2022</span> -->
 
                 <p class="timeline-text">
-                  Since 2018, my journey in web development has been a dynamic and transformative experience. From mastering HTML, CSS, and JavaScript to exploring modern frameworks and libraries, I have witnessed the rapid evolution of web technologies. With each project, I have gained valuable insights into creating responsive and visually appealing websites, while also prioritizing performance and user experience.
+                  <!-- Since 2018, -->
+                   My journey in web development has been a dynamic and transformative experience. From mastering HTML, CSS, and JavaScript to exploring modern frameworks and libraries, I have witnessed the rapid evolution of web technologies. With each project, I have gained valuable insights into creating responsive and visually appealing websites, while also prioritizing performance and user experience.
                 </p>
               </li>
 
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title font-bold">UI/UX Designer</h4>
 
-                <span>2017-2021</span>
+                <!-- <span>2017-2021</span> -->
 
                 <p class="timeline-text">
                   Over the years, my experience in UI/UX designing has been an exciting and rewarding journey. From understanding user needs and conducting thorough research to creating visually stunning and intuitive interfaces, I have honed my skills in crafting seamless user experiences. Embracing design thinking principles and staying updated with emerging trends have allowed me to consistently deliver designs that delight users and drive meaningful engagement.
@@ -608,16 +613,6 @@
             <h3 class="h3 skills-title font-bold">My skills</h3>
 
             <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">FLUTTER (Dart)</h5>
-                  <data value="85">85%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 85%;" />
-                </div>
-              </li>
 
               <li class="skills-item">
                 <div class="title-wrapper">
@@ -643,6 +638,17 @@
 
               <li class="skills-item">
                 <div class="title-wrapper">
+                  <h5 class="h5">FLUTTER (Dart)</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
                   <h5 class="h5">JAVA SCRIPT</h5>
                   <data value="80">80%</data>
                 </div>
@@ -654,7 +660,7 @@
 
               <li class="skills-item">
                 <div class="title-wrapper">
-                  <h5 class="h5">PYTHON</h5>
+                  <h5 class="h5">Node JS </h5>
                   <data value="70">70%</data>
                 </div>
 
@@ -863,7 +869,7 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="#">
+                <a href="">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -883,7 +889,7 @@
                 data-filter-item
                 data-category="applications"
               >
-                <a href="#">
+                <a href="">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -907,7 +913,7 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="#">
+                <a href="">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -927,7 +933,7 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="#">
+                <a href="">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -947,7 +953,7 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="#">
+                <a href="">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -967,7 +973,7 @@
                 data-filter-item
                 data-category="applications"
               >
-                <a href="#">
+                <a href="">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -991,7 +997,7 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="#">
+                <a href="">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -1021,7 +1027,7 @@
           <section class="blog-posts">
             <ul class="blog-posts-list">
               <li class="blog-post-item">
-                <a href="#">
+                <a href="">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-1.jpg"
@@ -1052,7 +1058,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="#">
+                <a href="">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-2.jpg"
@@ -1083,7 +1089,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="#">
+                <a href="">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-3.jpg"
@@ -1112,7 +1118,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="#">
+                <a href="">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-4.jpg"
@@ -1143,7 +1149,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="#">
+                <a href="">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-5.jpg"
@@ -1174,7 +1180,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="#">
+                <a href="">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-6.jpg"
