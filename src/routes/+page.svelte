@@ -788,13 +788,13 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="https://www.catherinecbse.info/">
+                <a href="https://catherine-group-cbse-main.vercel.app/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
                     </div>
 
-                    <img src="./project-1.jpg" alt="finance" loading="lazy" />
+                    <img src="./project-1.png" alt="finance" loading="lazy" />
                   </figure>
 
                   <h3 class="project-title">Educational</h3>
@@ -806,9 +806,53 @@
               <li
                 class="project-item active"
                 data-filter-item
+                data-category="applications"
+              >
+                <a href="https://github.com/ANCIENTINSANE/TAPIT.git" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline" />
+                    </div>
+
+                    <img
+                      src="./project-4.png"
+                      alt="PROJECT TAPIT"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">PROJECT TAPIT</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+              class="project-item active"
+              data-filter-item
+              data-category="web development"
+            >
+              <a href="https://thefloortraders.io/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline" />
+                  </div>
+
+                  <img src="./project-2.png" alt="orizon" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
                 data-category="web development"
               >
-                <a href="http://catherine-group-ssc.vercel.app/">
+                <a href="http://catherine-group-ssc.vercel.app/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -828,7 +872,7 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="http://catherine-group-college.vercel.app/">
+                <a href="http://catherine-group-college.vercel.app/" target="_blank">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -844,25 +888,6 @@
               </li>
 
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="https://thefloortraders.io/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline" />
-                    </div>
-
-                    <img src="./project-2.png" alt="orizon" loading="lazy" />
-                  </figure>
-
-                  <h3 class="project-title">Finance</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
 
               <li
                 class="project-item active"
@@ -881,30 +906,6 @@
                   <h3 class="project-title">Fundo</h3>
 
                   <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline" />
-                    </div>
-
-                    <img
-                      src="./project-4.png"
-                      alt="brawlhalla"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Brawlhalla</h3>
-
-                  <p class="project-category">Applications</p>
                 </a>
               </li>
 
