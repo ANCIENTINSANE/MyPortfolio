@@ -216,7 +216,7 @@
 
           <section class="about-text">
             <p>
-              Hello and welcome to my portfolio! I am Surendra, a dynamic and multi-talented professional specializing in UI/UX design, Svelte Kit development, and Flutter app development. With a keen eye for design and a strong technical background, I am dedicated to creating exceptional digital experiences that captivate users and push boundaries.
+              Hello and welcome to my portfolio! I am Surendra, a dynamic and multi-talented professional specializing in UI/UX design, Web development, and cross-platform app development. With a keen eye for design and a strong technical background, I am dedicated to creating exceptional digital experiences that captivate users and push boundaries.
             </p>
 
             <p>
@@ -617,7 +617,51 @@
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">UI/UX</h5>
-                  <data value="95">95%</data>
+                  <!-- <data value="95">95%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML 5</h5>
+                  <!-- <data value="95">100%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CSS 3</h5>
+                  <!-- <data value="95">100%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">TailWind CSS</h5>
+                  <!-- <data value="95">100%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Bootstrap 5</h5>
+                  <!-- <data value="95">95%</data> -->
                 </div>
 
                 <div class="skill-progress-bg">
@@ -628,7 +672,7 @@
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">SVELTE</h5>
-                  <data value="90">90%</data>
+                  <!-- <data value="90">90%</data> -->
                 </div>
 
                 <div class="skill-progress-bg">
@@ -639,7 +683,7 @@
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">FLUTTER (Dart)</h5>
-                  <data value="85">85%</data>
+                  <!-- <data value="85">85%</data> -->
                 </div>
 
                 <div class="skill-progress-bg">
@@ -650,29 +694,29 @@
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">JAVA SCRIPT</h5>
-                  <data value="80">80%</data>
+                  <!-- <data value="80">80%</data> -->
                 </div>
 
                 <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%;" />
+                  <div class="skill-progress-fill" style="width: 90%;" />
                 </div>
               </li>
 
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">ReactJs</h5>
-                  <data value="80">80%</data>
+                  <!-- <data value="80">80%</data> -->
                 </div>
 
                 <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%;" />
+                  <div class="skill-progress-fill" style="width: 90%;" />
                 </div>
               </li>
 
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">Node JS and Express.js</h5>
-                  <data value="70">70%</data>
+                  <!-- <data value="70">70%</data> -->
                 </div>
 
                 <div class="skill-progress-bg">
@@ -683,7 +727,29 @@
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">MongoDB</h5>
-                  <data value="90">90%</data>
+                  <!-- <data value="90">90%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GIT</h5>
+                  <!-- <data value="90">90%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Postman</h5>
+                  <!-- <data value="90">90%</data> -->
                 </div>
 
                 <div class="skill-progress-bg">
