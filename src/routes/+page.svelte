@@ -628,11 +628,11 @@
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">SVELTE</h5>
-                  <data value="95">95%</data>
+                  <data value="90">90%</data>
                 </div>
 
                 <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 98%;" />
+                  <div class="skill-progress-fill" style="width: 90%;" />
                 </div>
               </li>
 
@@ -660,12 +660,34 @@
 
               <li class="skills-item">
                 <div class="title-wrapper">
-                  <h5 class="h5">Node JS </h5>
+                  <h5 class="h5">ReactJs</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Node JS and Express.js</h5>
                   <data value="70">70%</data>
                 </div>
 
                 <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 75%;" />
+                  <div class="skill-progress-fill" style="width: 70%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MongoDB</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;" />
                 </div>
               </li>
             </ul>
