@@ -216,17 +216,49 @@
 
           <section class="about-text">
             <p>
-              Hello and welcome to my portfolio! I am Surendra, a dynamic and multi-talented professional specializing in UI/UX design, Web development, and cross-platform app development. With a keen eye for design and a strong technical background, I am dedicated to creating exceptional digital experiences that captivate users and push boundaries.
+              Welcome to my portfolio! I'm Mahesh Surendra Kumar Mattaparthi, a
+              passionate and versatile professional with a focus on crafting
+              seamless user experiences and bringing innovative ideas to life.
+              As a UI/UX designer, Full Stack Web Developer specializing in MERN
+              Stack, and proficient App Developer using Flutter, I thrive on
+              creating engaging and intuitive digital solutions.
             </p>
+
+            <p style="color: white;">UI/UX Designer:</p>
 
             <p>
-              As a UI/UX designer, I have a deep understanding of user-centered design principles and strive to create interfaces that are not only visually appealing but also intuitive and seamless. I believe that the user experience is the heart and soul of any application, and my goal is to craft designs that make a lasting impact. From conducting user research and creating wireframes to prototyping and user testing, I am meticulous in my approach to ensure that every interaction is purposeful and engaging.
+              With a keen eye for design and a deep understanding of user
+              psychology, I specialize in creating visually stunning and highly
+              functional user interfaces. My goal is to ensure that every
+              interaction with a product is not only aesthetically pleasing but
+              also enhances the overall user experience. I am dedicated to
+              user-centered design principles, incorporating feedback and
+              iterative processes to refine and optimize designs.
             </p>
 
-            <p>In addition to my design expertise, I specialize in Svelte Kit development. With its simplicity and performance advantages, Svelte Kit has become my go-to framework for creating fast and efficient web applications. I have a strong command over HTML, CSS, and JavaScript, and I leverage the power of Svelte Kit to build responsive and scalable interfaces that deliver an outstanding user experience across various devices and platforms.</p>
-          
-            <p>Furthermore, my proficiency in Flutter development allows me to create beautiful and feature-rich mobile applications. Flutter's expressive UI toolkit and hot reload functionality enable me to rapidly iterate and refine designs, resulting in polished and visually striking apps. Whether it's building native iOS or Android applications or developing cross-platform solutions, I am well-versed in Flutter's capabilities and can bring your ideas to life with finesse.</p>
-            
+            <p style="color: white;">Full Stack Web Developer (MERN Stack):</p>
+
+            <p>
+              As a Full Stack Web Developer, I am proficient in the MERN
+              (MongoDB, Express.js, React.js, Node.js) stack. From the
+              server-side logic to the client-side user interface, I am equipped
+              to handle every aspect of web development. My experience spans
+              creating dynamic and responsive web applications that deliver a
+              seamless experience across various devices. I am committed to
+              writing clean, maintainable code and staying abreast of the latest
+              web development trends and technologies.
+            </p>
+
+            <p style="color: white;">App Developer (Flutter):</p>
+
+            <p>
+              In the realm of mobile app development, I specialize in crafting
+              cross-platform applications using Flutter. Leveraging this
+              framework, I create natively compiled applications for mobile,
+              web, and desktop from a single codebase. My focus is on building
+              visually appealing, performant, and user-friendly applications
+              that cater to the unique requirements of each platform.
+            </p>
           </section>
 
           <!--
