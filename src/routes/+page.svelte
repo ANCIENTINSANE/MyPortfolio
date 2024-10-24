@@ -14,7 +14,7 @@
     <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
 
     <!--
     - google font link
@@ -505,37 +505,37 @@
 
             <ul class="clients-list has-scrollbar">
               <li class="clients-item">
-                <a href="">
+                <a href="/">
                   <img src="./logo-1-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="">
+                <a href="/">
                   <img src="./logo-2-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="">
+                <a href="/">
                   <img src="./logo-3-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="">
+                <a href="/">
                   <img src="./logo-4-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="">
+                <a href="/">
                   <img src="./logo-5-color.png" alt="client logo" />
                 </a>
               </li>
 
               <li class="clients-item">
-                <a href="">
+                <a href="/">
                   <img src="./logo-6-color.png" alt="client logo" />
                 </a>
               </li>
@@ -1014,7 +1014,7 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="">
+                <a href="/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -1034,7 +1034,7 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="">
+                <a href="/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -1054,7 +1054,7 @@
                 data-filter-item
                 data-category="web design"
               >
-                <a href="">
+                <a href="/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -1074,7 +1074,7 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="">
+                <a href="/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -1094,7 +1094,7 @@
                 data-filter-item
                 data-category="applications"
               >
-                <a href="">
+                <a href="/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -1118,7 +1118,7 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="">
+                <a href="/">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -1148,7 +1148,7 @@
           <section class="blog-posts">
             <ul class="blog-posts-list">
               <li class="blog-post-item">
-                <a href="">
+                <a href="/">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-1.jpg"
@@ -1179,7 +1179,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="">
+                <a href="/">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-2.jpg"
@@ -1210,7 +1210,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="">
+                <a href="/">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-3.jpg"
@@ -1239,7 +1239,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="">
+                <a href="/">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-4.jpg"
@@ -1270,7 +1270,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="">
+                <a href="/">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-5.jpg"
@@ -1301,7 +1301,7 @@
               </li>
 
               <li class="blog-post-item">
-                <a href="">
+                <a href="/">
                   <figure class="blog-banner-box">
                     <img
                       src="./blog-6.jpg"
@@ -1401,7 +1401,7 @@
     <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+    <!-- <script src="./assets/js/script.js"></script> -->
 
     <!--
     - ionicon link
