@@ -196,9 +196,6 @@
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Portfolio</button>
             </li>
-
-           
-
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Contact</button>
             </li>
@@ -609,35 +606,41 @@
 
             <ol class="timeline-list">
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold">Mobile Application Developer</h4>
-
-                <!-- <span>2021 — Present</span> -->
+                <h4 class="h4 timeline-item-title font-bold"> Full Stack Developer (MERN)</h4>
+                <a href="https://www.gvrinfosystems.com/" target="_blank">
+                  <p class="font-medium text-white/70 mb-2">
+                    GVR Infosystems Pvt Ltd.
+                    </p>
+                  </a>
+                <span>Feb 2024 — Present</span>
 
                 <p class="timeline-text">
-                  Over the past few years, my journey in mobile app development has been a thrilling and ever-evolving experience. From mastering popular frameworks and languages to adapting to the latest design trends and user preferences, I have witnessed the constant evolution of the industry. The experience has not only honed my technical skills but also taught me the importance of user-centric design and seamless functionality, ultimately creating impactful and user-friendly mobile applications.
-                </p>
+                  Experienced Full Stack Developer skilled in designing and building a comprehensive Legal Management System with React.js, Redux, Node.js, Express, and MongoDB. Developed end-to-end features to streamline case management, document handling, and client interactions. Led front-end development using React.js and Redux to create a dynamic, user-friendly interface. Built robust backend APIs with Node.js and Express to manage large volumes of case data efficiently and securely. Designed and optimized MongoDB schemas for fast and reliable data retrieval, tailored to legal workflows. Proven ability to deliver secure, scalable solutions that enhance productivity and collaboration for legal professionals.                </p>
               </li>
 
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold">Web Developer</h4>
-
-                <!-- <span>2018 — 2022</span> -->
+                <h4 class="h4 timeline-item-title font-bold"> Full Stack Developer</h4>
+                <a href="http://konkorde.org/" target="_blank">
+                <p class="font-medium text-white/70 mb-2">
+                  Konkorde.org
+                  </p>
+                </a>
+                <span>October 2022 - November 2023</span>
 
                 <p class="timeline-text">
-                  <!-- Since 2018, -->
-                   My journey in web development has been a dynamic and transformative experience. From mastering HTML, CSS, and JavaScript to exploring modern frameworks and libraries, I have witnessed the rapid evolution of web technologies. With each project, I have gained valuable insights into creating responsive and visually appealing websites, while also prioritizing performance and user experience.
+                  During my tenure as a Full-Stack Developer at Konkorde, I had the opportunity to work extensively with the MERN stack, Flutter, and Svelte contributing to the development of dynamic and high-performance applications. I designed and implemented robust web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js), where I developed RESTful APIs to facilitate seamless communication between front-end and back- end components, optimizing database queries and improving application performance by reducing load times by 25%. In addition, I created visually appealing and responsive mobile applications with Flutter, collaborating closely with UI/UX designers to translate design concepts into functional applications that significantly increased user satisfaction ratings. My experience also included leveraging Svelte to build high-performance web applications, utilizing its reactive programming model for efficient state management and developing reusable components that improved code maintainability and reduced development time by 30%. Notably, I successfully led the migration of legacy applications to modern frameworks (MERN and Svelte), enhancing system scalability and maintainability. Through my contributions, I increased application engagement by 20% by implementing new features based on user feedback and actively participated in Agile development processes, contributing to sprint planning, code reviews, and collaborative problem-solving sessions
                 </p>
               </li>
 
-              <li class="timeline-item">
+              <!-- <li class="timeline-item">
                 <h4 class="h4 timeline-item-title font-bold">UI/UX Designer</h4>
 
-                <!-- <span>2017-2021</span> -->
+                <span>2017-2021</span>
 
                 <p class="timeline-text">
                   Over the years, my experience in UI/UX designing has been an exciting and rewarding journey. From understanding user needs and conducting thorough research to creating visually stunning and intuitive interfaces, I have honed my skills in crafting seamless user experiences. Embracing design thinking principles and staying updated with emerging trends have allowed me to consistently deliver designs that delight users and drive meaningful engagement.
                 </p>
-              </li>
+              </li> -->
             </ol>
           </section>
 
@@ -1039,7 +1042,6 @@
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
                     </div>
-
                     <img src="./project-5.png" alt="dsm." loading="lazy" />
                   </figure>
 
