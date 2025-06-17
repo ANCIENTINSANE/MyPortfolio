@@ -127,11 +127,8 @@
             </li> -->
 
             <li class="social-item">
-              <a
-                href="mailto:surendram.dev@gmail.com"
-                class="social-link"
-              >
-              <ion-icon name="mail-outline"></ion-icon>
+              <a href="mailto:surendram.dev@gmail.com" class="social-link">
+                <ion-icon name="mail-outline"></ion-icon>
               </a>
             </li>
 
@@ -152,7 +149,7 @@
 
             <li class="social-item">
               <a
-                href="https://www.linkedin.com/in/ancientinsane/"
+                href="https://www.linkedin.com/in/surendra-codes/"
                 class="social-link"
               >
                 <ion-icon name="logo-linkedin" />
@@ -160,16 +157,10 @@
             </li>
 
             <li class="social-item">
-              <a
-                href="https://github.com/ANCIENTINSANE/"
-                class="social-link"
-              >
-              <ion-icon name="logo-github"></ion-icon>
+              <a href="https://github.com/ANCIENTINSANE/" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
               </a>
             </li>
-
-            
-
           </ul>
         </div>
       </aside>
@@ -364,7 +355,10 @@
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
-                      "I am extremely impressed with Surendra exceptional coding skills and attention to detail. They delivered high-quality work within the given timeframe, exceeding my expectations."
+                      "I am extremely impressed with Surendra exceptional coding
+                      skills and attention to detail. They delivered
+                      high-quality work within the given timeframe, exceeding my
+                      expectations."
                     </p>
                   </div>
                 </div>
@@ -390,7 +384,11 @@
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
-                      "Surendra's innovative thinking and problem-solving abilities have been instrumental in transforming our project into a seamless and efficient system. Their dedication and professionalism make them a valuable asset to any development team."
+                      "Surendra's innovative thinking and problem-solving
+                      abilities have been instrumental in transforming our
+                      project into a seamless and efficient system. Their
+                      dedication and professionalism make them a valuable asset
+                      to any development team."
                     </p>
                   </div>
                 </div>
@@ -416,7 +414,10 @@
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
-                      Surendra is an exceptional designer who brings creativity and precision to every project. His attention to detail and innovative approach make him a true asset in the world of design.
+                      Surendra is an exceptional designer who brings creativity
+                      and precision to every project. His attention to detail
+                      and innovative approach make him a true asset in the world
+                      of design.
                     </p>
                   </div>
                 </div>
@@ -437,12 +438,15 @@
                     class="h4 testimonials-item-title"
                     data-testimonials-title
                   >
-                  Amit Singhania
+                    Amit Singhania
                   </h4>
 
                   <div class="testimonials-text" data-testimonials-text>
                     <p>
-                      Surendra is a talented app developer who consistently delivers high-quality and user-friendly applications. His technical expertise and commitment to excellence make him a valuable addition to any development team.
+                      Surendra is a talented app developer who consistently
+                      delivers high-quality and user-friendly applications. His
+                      technical expertise and commitment to excellence make him
+                      a valuable addition to any development team.
                     </p>
                   </div>
                 </div>
@@ -477,7 +481,6 @@
 
               <div class="modal-content">
                 <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
 
                 <div data-modal-text>
                   <p>
@@ -549,52 +552,7 @@
             <h2 class="h2 article-title">Resume</h2>
           </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline" />
-              </div>
-
-              <h3 class="h3 font-bold">Education</h3>
-            </div>
-
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold">
-                  Abhyas The Global School
-                </h4>
-
-                <span>2012 — 2017</span>
-
-                <p class="timeline-text ">
-                  Attending Abhyas, The Global School was a transformative experience that broadened my horizons. The school's emphasis on global perspectives and cultural exchange allowed me to connect with students from diverse backgrounds, fostering a deep appreciation for diversity. The nurturing environment, coupled with innovative teaching methods, equipped me with the skills and mindset to thrive in an interconnected world.
-                </p>
-              </li>
-
-              <li class="timeline-item font-bold">
-                <h4 class="h4 timeline-item-title">Sri Gayatri Educational Institutions</h4>
-
-                <span>2017 — 2019</span>
-
-                <p class="timeline-text">
-                  My time at Sri Gayatri Educational Institution  was a truly enriching experience. The college's dedicated faculty and comprehensive curriculum provided me with a strong foundation for higher education. The supportive and inclusive environment fostered my personal and academic growth, preparing me for future success.
-                </p>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold">
-                  BITS Vizag
-                </h4>
-
-                <span>2019 — 2023</span>
-
-                <p class="timeline-text">
-                  My experience at BITS Vizag was truly transformative. The college's dynamic and interdisciplinary approach to education opened doors to new perspectives and opportunities. The vibrant campus community, along with exceptional faculty and resources, nurtured my personal and intellectual growth, shaping me into a well-rounded individual ready to make a positive impact in the world.
-                </p>
-              </li>
-            </ol>
-          </section>
-
+          
           <section class="timeline">
             <div class="title-wrapper">
               <div class="icon-box">
@@ -606,29 +564,98 @@
 
             <ol class="timeline-list">
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold"> Full Stack Developer (MERN)</h4>
-                <a href="https://www.gvrinfosystems.com/" target="_blank">
+                <h4 class="h4 timeline-item-title font-bold">
+                  Full Stack Developer
+                </h4>
+                <a href="https://www.vyva.ca/" target="_blank">
                   <p class="font-medium text-white/70 mb-2">
-                    GVR Infosystems Pvt Ltd.
-                    </p>
-                  </a>
-                <span>Feb 2024 — Present</span>
+                    Vyva Consulting Inc. (Vyva IT Solutions Pvt Ltd.)
+                  </p>
+                </a>
+                <span>Mar 2025 — Present</span>
 
                 <p class="timeline-text">
-                  Experienced Full Stack Developer skilled in designing and building a comprehensive Legal Management System with React.js, Redux, Node.js, Express, and MongoDB. Developed end-to-end features to streamline case management, document handling, and client interactions. Led front-end development using React.js and Redux to create a dynamic, user-friendly interface. Built robust backend APIs with Node.js and Express to manage large volumes of case data efficiently and securely. Designed and optimized MongoDB schemas for fast and reliable data retrieval, tailored to legal workflows. Proven ability to deliver secure, scalable solutions that enhance productivity and collaboration for legal professionals.                </p>
+                  As a Full Stack Developer, I led the development of a data
+                  unification platform that aggregated and standardized data
+                  from multiple sales and compensation systems, including
+                  Xactly, SalesVista, Salesforce, Spiff, and others. Using React
+                  for the frontend and Node.js for the backend, I designed and
+                  implemented scalable web applications to present unified
+                  insights in a clear and actionable manner. I worked
+                  extensively with PostgreSQL for structured data storage and
+                  optimization, and utilized AWS EC2 instances for deployment,
+                  with Docker ensuring consistent environments across stages. I
+                  set up and maintained CI/CD pipelines using GitHub Actions,
+                  enabling smooth, automated workflows from development to
+                  production. This platform significantly improved data
+                  accessibility, reporting efficiency, and decision-making for
+                  stakeholders by delivering a single, cohesive view of
+                  previously siloed data sources.
+                </p>
               </li>
 
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold"> Full Stack Developer</h4>
-                <a href="http://konkorde.org/" target="_blank">
-                <p class="font-medium text-white/70 mb-2">
-                  Konkorde.org
+                <h4 class="h4 timeline-item-title font-bold">
+                  Full Stack Developer (MERN)
+                </h4>
+                <a href="https://www.gvrinfosystems.com/" target="_blank">
+                  <p class="font-medium text-white/70 mb-2">
+                    GVR Infosystems Pvt Ltd.
                   </p>
+                </a>
+                <span>Feb 2024 — Mar 2025</span>
+
+                <p class="timeline-text">
+                  Experienced Full Stack Developer skilled in designing and
+                  building a comprehensive Legal Management System with
+                  React.js, Redux, Node.js, Express, and MongoDB. Developed
+                  end-to-end features to streamline case management, document
+                  handling, and client interactions. Led front-end development
+                  using React.js and Redux to create a dynamic, user-friendly
+                  interface. Built robust backend APIs with Node.js and Express
+                  to manage large volumes of case data efficiently and securely.
+                  Designed and optimized MongoDB schemas for fast and reliable
+                  data retrieval, tailored to legal workflows. Proven ability to
+                  deliver secure, scalable solutions that enhance productivity
+                  and collaboration for legal professionals.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title font-bold">
+                  Full Stack Developer
+                </h4>
+                <a href="http://konkorde.org/" target="_blank">
+                  <p class="font-medium text-white/70 mb-2">Konkorde.org</p>
                 </a>
                 <span>October 2022 - November 2023</span>
 
                 <p class="timeline-text">
-                  During my tenure as a Full-Stack Developer at Konkorde, I had the opportunity to work extensively with the MERN stack, Flutter, and Svelte contributing to the development of dynamic and high-performance applications. I designed and implemented robust web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js), where I developed RESTful APIs to facilitate seamless communication between front-end and back- end components, optimizing database queries and improving application performance by reducing load times by 25%. In addition, I created visually appealing and responsive mobile applications with Flutter, collaborating closely with UI/UX designers to translate design concepts into functional applications that significantly increased user satisfaction ratings. My experience also included leveraging Svelte to build high-performance web applications, utilizing its reactive programming model for efficient state management and developing reusable components that improved code maintainability and reduced development time by 30%. Notably, I successfully led the migration of legacy applications to modern frameworks (MERN and Svelte), enhancing system scalability and maintainability. Through my contributions, I increased application engagement by 20% by implementing new features based on user feedback and actively participated in Agile development processes, contributing to sprint planning, code reviews, and collaborative problem-solving sessions
+                  During my tenure as a Full-Stack Developer at Konkorde, I had
+                  the opportunity to work extensively with the MERN stack,
+                  Flutter, and Svelte contributing to the development of dynamic
+                  and high-performance applications. I designed and implemented
+                  robust web applications using the MERN stack (MongoDB,
+                  Express.js, React.js, Node.js), where I developed RESTful APIs
+                  to facilitate seamless communication between front-end and
+                  back- end components, optimizing database queries and
+                  improving application performance by reducing load times by
+                  25%. In addition, I created visually appealing and responsive
+                  mobile applications with Flutter, collaborating closely with
+                  UI/UX designers to translate design concepts into functional
+                  applications that significantly increased user satisfaction
+                  ratings. My experience also included leveraging Svelte to
+                  build high-performance web applications, utilizing its
+                  reactive programming model for efficient state management and
+                  developing reusable components that improved code
+                  maintainability and reduced development time by 30%. Notably,
+                  I successfully led the migration of legacy applications to
+                  modern frameworks (MERN and Svelte), enhancing system
+                  scalability and maintainability. Through my contributions, I
+                  increased application engagement by 20% by implementing new
+                  features based on user feedback and actively participated in
+                  Agile development processes, contributing to sprint planning,
+                  code reviews, and collaborative problem-solving sessions
                 </p>
               </li>
 
@@ -648,7 +675,6 @@
             <h3 class="h3 skills-title font-bold">My skills</h3>
 
             <ul class="skills-list content-card">
-
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">UI/UX</h5>
@@ -703,7 +729,27 @@
                   <div class="skill-progress-fill" style="width: 95%;" />
                 </div>
               </li>
+<li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React.js</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
 
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%;" />
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Node.js and Express.js</h5>
+                  <!-- <data value="70">70%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;" />
+                </div>
+              </li>
               <li class="skills-item">
                 <div class="title-wrapper">
                   <h5 class="h5">SVELTE</h5>
@@ -737,27 +783,7 @@
                 </div>
               </li>
 
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">ReactJs</h5>
-                  <!-- <data value="80">80%</data> -->
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%;" />
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Node JS and Express.js</h5>
-                  <!-- <data value="70">70%</data> -->
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%;" />
-                </div>
-              </li>
+              
 
               <li class="skills-item">
                 <div class="title-wrapper">
@@ -791,10 +817,112 @@
                   <div class="skill-progress-fill" style="width: 90%;" />
                 </div>
               </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">PostgreSQL</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;" />
+                </div>
+              </li>
+               <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Docker</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;" />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GitHub Actions</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;" />
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">AWS</h5>
+                  <!-- <data value="80">80%</data> -->
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;" />
+                </div>
+              </li>
+              
             </ul>
           </section>
+          <br>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline" />
+              </div>
+              <h3 class="h3 font-bold">Education</h3>
+            </div>
 
-          
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title font-bold">
+                  Abhyas The Global School
+                </h4>
+
+                <span>2012 — 2017</span>
+
+                <p class="timeline-text">
+                  Attending Abhyas, The Global School was a transformative
+                  experience that broadened my horizons. The school's emphasis
+                  on global perspectives and cultural exchange allowed me to
+                  connect with students from diverse backgrounds, fostering a
+                  deep appreciation for diversity. The nurturing environment,
+                  coupled with innovative teaching methods, equipped me with the
+                  skills and mindset to thrive in an interconnected world.
+                </p>
+              </li>
+
+              <li class="timeline-item font-bold">
+                <h4 class="h4 timeline-item-title">
+                  Sri Gayatri Educational Institutions
+                </h4>
+
+                <span>2017 — 2019</span>
+
+                <p class="timeline-text">
+                  My time at Sri Gayatri Educational Institution was a truly
+                  enriching experience. The college's dedicated faculty and
+                  comprehensive curriculum provided me with a strong foundation
+                  for higher education. The supportive and inclusive environment
+                  fostered my personal and academic growth, preparing me for
+                  future success.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title font-bold">BITS Vizag</h4>
+
+                <span>2019 — 2023</span>
+
+                <p class="timeline-text">
+                  My experience at BITS Vizag was truly transformative. The
+                  college's dynamic and interdisciplinary approach to education
+                  opened doors to new perspectives and opportunities. The
+                  vibrant campus community, along with exceptional faculty and
+                  resources, nurtured my personal and intellectual growth,
+                  shaping me into a well-rounded individual ready to make a
+                  positive impact in the world.
+                </p>
+              </li>
+            </ol>
+          </section>
+
           <section class="timeline mt-5">
             <div class="title-wrapper">
               <div class="icon-box">
@@ -806,41 +934,74 @@
 
             <ol class="timeline-list">
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold">Started Own Coding Services</h4>
+                <h4 class="h4 timeline-item-title font-bold">
+                  Started Own Coding Services
+                </h4>
 
                 <span>2022</span>
 
                 <p class="timeline-text">
-                  KONKORDE, my coding services, offer innovative solutions tailored to your unique needs. With a passion for precision and efficiency, I specialize in developing robust software and applications that empower businesses to thrive in the digital realm. Experience the seamless synergy of cutting-edge technology and meticulous craftsmanship with KONKORDE.
+                  KONKORDE, my coding services, offer innovative solutions
+                  tailored to your unique needs. With a passion for precision
+                  and efficiency, I specialize in developing robust software and
+                  applications that empower businesses to thrive in the digital
+                  realm. Experience the seamless synergy of cutting-edge
+                  technology and meticulous craftsmanship with KONKORDE.
                 </p>
               </li>
 
               <li class="timeline-item font-bold">
-                <h4 class="h4 timeline-item-title">Netball National Championship</h4>
+                <h4 class="h4 timeline-item-title">
+                  Netball National Championship
+                </h4>
 
                 <span>2017</span>
 
                 <p class="timeline-text">
-                  Participating in the 2017 Netball National Championship was an exhilarating experience that showcased the highest level of talent and sportsmanship. The intense competition and camaraderie among teams created an electrifying atmosphere, fueling our determination to give our best on the court. The event served as a platform for personal growth, teamwork, and unforgettable memories that will forever be cherished.
+                  Participating in the 2017 Netball National Championship was an
+                  exhilarating experience that showcased the highest level of
+                  talent and sportsmanship. The intense competition and
+                  camaraderie among teams created an electrifying atmosphere,
+                  fueling our determination to give our best on the court. The
+                  event served as a platform for personal growth, teamwork, and
+                  unforgettable memories that will forever be cherished.
                 </p>
               </li>
 
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold">National Open Karate Do Championship-Solo (Runner)</h4>
+                <h4 class="h4 timeline-item-title font-bold">
+                  National Open Karate Do Championship-Solo (Runner)
+                </h4>
 
                 <span>2014</span>
 
                 <p class="timeline-text">
-                  Participating in the 2014 National Open Karate Do Championship-Solo was a thrilling and rewarding experience. The intense training, discipline, and dedication paid off as I clinched the silver medal, showcasing my skill and determination. The event not only bolstered my confidence but also provided an opportunity to connect with fellow karate practitioners and learn from their expertise.
+                  Participating in the 2014 National Open Karate Do
+                  Championship-Solo was a thrilling and rewarding experience.
+                  The intense training, discipline, and dedication paid off as I
+                  clinched the silver medal, showcasing my skill and
+                  determination. The event not only bolstered my confidence but
+                  also provided an opportunity to connect with fellow karate
+                  practitioners and learn from their expertise.
                 </p>
               </li>
               <li class="timeline-item">
-                <h4 class="h4 timeline-item-title font-bold">National Open Karate Do Championship-Team (Runner)</h4>
+                <h4 class="h4 timeline-item-title font-bold">
+                  National Open Karate Do Championship-Team (Runner)
+                </h4>
 
                 <span>2014</span>
 
                 <p class="timeline-text">
-                  In addition to winning silver in the individual category, I also had the privilege of contributing to my team's success, securing another silver medal in the team event at the 2014 National Open Karate Do Championship. The camaraderie, synchronized movements, and collective effort demonstrated during the team competition were truly memorable and reinforced the power of unity and collaboration. The experience further solidified my passion for karate and the joy of achieving goals as a part of a dedicated team.
+                  In addition to winning silver in the individual category, I
+                  also had the privilege of contributing to my team's success,
+                  securing another silver medal in the team event at the 2014
+                  National Open Karate Do Championship. The camaraderie,
+                  synchronized movements, and collective effort demonstrated
+                  during the team competition were truly memorable and
+                  reinforced the power of unity and collaboration. The
+                  experience further solidified my passion for karate and the
+                  joy of achieving goals as a part of a dedicated team.
                 </p>
               </li>
             </ol>
@@ -911,7 +1072,10 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="https://catherine-group-cbse-main.vercel.app/" target="_blank">
+                <a
+                  href="https://catherine-group-cbse-main.vercel.app/"
+                  target="_blank"
+                >
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -931,7 +1095,10 @@
                 data-filter-item
                 data-category="applications"
               >
-                <a href="https://github.com/ANCIENTINSANE/TAPIT.git" target="_blank">
+                <a
+                  href="https://github.com/ANCIENTINSANE/TAPIT.git"
+                  target="_blank"
+                >
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -951,31 +1118,34 @@
               </li>
 
               <li
-              class="project-item active"
-              data-filter-item
-              data-category="web development"
-            >
-              <a href="https://thefloortraders.io/" target="_blank">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline" />
-                  </div>
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://thefloortraders.io/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline" />
+                    </div>
 
-                  <img src="./project-2.png" alt="orizon" loading="lazy" />
-                </figure>
+                    <img src="./project-2.png" alt="orizon" loading="lazy" />
+                  </figure>
 
-                <h3 class="project-title">Finance</h3>
+                  <h3 class="project-title">Finance</h3>
 
-                <p class="project-category">Web development</p>
-              </a>
-            </li>
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
 
               <li
                 class="project-item active"
                 data-filter-item
                 data-category="web development"
               >
-                <a href="http://catherine-group-ssc.vercel.app/" target="_blank">
+                <a
+                  href="http://catherine-group-ssc.vercel.app/"
+                  target="_blank"
+                >
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -995,7 +1165,10 @@
                 data-filter-item
                 data-category="web development"
               >
-                <a href="http://catherine-group-college.vercel.app/" target="_blank">
+                <a
+                  href="http://catherine-group-college.vercel.app/"
+                  target="_blank"
+                >
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline" />
@@ -1009,8 +1182,6 @@
                   <p class="project-category">Web development</p>
                 </a>
               </li>
-
-
 
               <li
                 class="project-item active"
@@ -1440,7 +1611,7 @@
 
     // testimonials variables
     const testimonialsItem = document.querySelectorAll(
-      "[data-testimonials-item]"
+      "[data-testimonials-item]",
     );
     const modalContainer = document.querySelector("[data-modal-container]");
     const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
@@ -1463,10 +1634,10 @@
         modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
         modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
         modalTitle.innerHTML = this.querySelector(
-          "[data-testimonials-title]"
+          "[data-testimonials-title]",
         ).innerHTML;
         modalText.innerHTML = this.querySelector(
-          "[data-testimonials-text]"
+          "[data-testimonials-text]",
         ).innerHTML;
 
         testimonialsModalFunc();
