@@ -129,12 +129,14 @@
     <div class="container relative z-10 flex flex-col items-center">
         <div
             bind:this={badge}
-            class="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 backdrop-blur-md px-6 py-2.5 text-sm font-bold text-primary mb-12 shadow-sm"
+            class="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 backdrop-blur-md px-4 py-2 sm:px-6 sm:py-2.5 text-[10px] xs:text-xs sm:text-sm font-bold text-primary mb-12 shadow-sm text-center"
         >
             <span
-                class="mr-3 flex h-2 w-2 rounded-full bg-primary animate-pulse"
+                class="mr-2 sm:mr-3 flex h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-primary animate-pulse shrink-0"
             ></span>
-            Founder • Systems Engineer • SaaS Architect
+            <span class="truncate xs:whitespace-normal">
+                Founder • Systems Engineer • SaaS Architect
+            </span>
         </div>
 
         <h1
