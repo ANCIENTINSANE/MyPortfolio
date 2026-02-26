@@ -1,1 +1,0 @@
-import"../chunks/CWj6FrbW.js";import"../chunks/Ci7rVZ0k.js";import{p as t,q as a,t as i,v as e}from"../chunks/S-mJDw8V.js";var s=a('<section style="background: var(--smoky-black)"><h1>Thanks Contacting Surendra Dev !!</h1></section>');function v(r){var o=s();t(r,o)}var c=a("<div><!></div>");function h(r){var o=c(),n=i(o);v(n),e(o),t(r,o)}export{h as component};
