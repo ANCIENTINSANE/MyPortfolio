@@ -1,5 +1,5 @@
 export const siteConfig = {
-    name: "Surendra Kumar M",
+    name: "Surendra Mattaparthi",
     description: "Founder • Systems Engineer • Full-Stack Architect building scalable, AI-powered SaaS platforms.",
     url: "https://surendra.codes",
     links: {
