@@ -34,8 +34,8 @@
         Activity,
         Gauge,
     } from "lucide-svelte";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
 
     let skillsSection: HTMLElement;
     let header: HTMLElement;

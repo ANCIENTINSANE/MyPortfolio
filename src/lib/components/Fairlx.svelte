@@ -16,8 +16,8 @@
         X,
         Maximize2,
     } from "lucide-svelte";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
     import { fade, scale } from "svelte/transition";
 
     let fairlxSection: HTMLElement;
