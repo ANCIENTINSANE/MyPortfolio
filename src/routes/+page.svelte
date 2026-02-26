@@ -17,7 +17,7 @@
   <meta name="description" content={siteConfig.description} />
   <meta
     name="keywords"
-    content="Surendra Kumar M, Surendra, Mahesh Kumar M, Mahesh Kumar, Mahesh, Systems Architect, Founder, CTO, Technical Director, Full-Stack Developer, SaaS Engineer, Svelte, Next.js, AI Engineering, Scalable Architecture, Systems Thinking, Product Strategy, Cloud Engineering, PostgreSQL, AWS, DevOps, Node.js, TypeScript, Stemlen, Stemlen Pvt Ltd, Fairlx, fairlx.com, fairlx.in, stemlen.com, stemlen.in, Founder of Stemlen, Founder of Fairlx, Software Architecture Design, Product Engineering, India Developer, Systems Engineer, Usage-Based SaaS, Automation-First Workflows, Open Source Contributor"
+    content="Surendra Kumar M, Surendra, Mahesh Kumar M, Mahesh Kumar, Mahesh, Systems Architect, Founder, CTO, Technical Director, Full-Stack Developer, SaaS Engineer, Svelte, Next.js, AI Engineering, Scalable Architecture, Systems Thinking, Product Strategy, Cloud Engineering, PostgreSQL, AWS, DevOps, Node.js, TypeScript, Stemlen, Stemlen Pvt Ltd, Fairlx, fairlx.com, fairlx.in, stemlen.com, stemlen.in, Founder of Stemlen, Founder of Fairlx, Software Architecture Design, Product Engineering, India Developer, Systems Engineer, Usage-Based SaaS, Automation-First Workflows, Open Source Contributor, Surendra Mattaparthi, Mattaparthi, Surendra Mattaparthi, Mattaparthi Surendra, Mattaparthi Surendra Kumar, Mattaparthi Surendra Kumar M, Mattaparthi Mahesh, Mahesh mattaparthi, Mahesh Mattaparthi, Mahesh Mattaparthi Surendra, Mahesh Mattaparthi Surendra Kumar, Mahesh Mattaparthi Surendra Kumar M"
   />
   <link rel="canonical" href={siteConfig.url} />
 
