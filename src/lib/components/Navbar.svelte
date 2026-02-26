@@ -141,7 +141,7 @@
             <ThemeToggle />
             <button
                 onclick={toggleMenu}
-                class="p-2 text-foreground z-[60] relative"
+                class="p-2 text-foreground z-[110] relative"
                 aria-label="Toggle Menu"
             >
                 <div
@@ -173,28 +173,41 @@
     <!-- Mobile Menu Overlay -->
     <div
         bind:this={mobileMenuOverlay}
-        class="fixed inset-0 z-[55] bg-background/95 backdrop-blur-2xl hidden flex-col items-center justify-center opacity-0"
+        class="fixed inset-0 z-[100] bg-background flex flex-col items-center justify-center hidden opacity-0"
     >
-        <nav class="flex flex-col items-center gap-8 px-6 text-center">
+        <!-- Background decorative elements for the menu -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <div
+                class="absolute top-[10%] left-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
+            ></div>
+            <div
+                class="absolute bottom-[10%] right-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
+            ></div>
+        </div>
+
+        <nav class="flex flex-col items-center gap-10 px-6 text-center z-10">
             {#each navItems as item, i}
-                <a
-                    bind:this={mobileNavLinks[i]}
-                    href={item.href}
-                    onclick={(e) => handleMobileClick(e, item.href)}
-                    class="text-3xl font-bold tracking-tighter hover:text-primary transition-colors"
-                >
-                    {item.name}
-                </a>
+                <div class="overflow-hidden">
+                    <a
+                        bind:this={mobileNavLinks[i]}
+                        href={item.href}
+                        onclick={(e) => handleMobileClick(e, item.href)}
+                        class="text-4xl sm:text-5xl font-bold tracking-tight hover:text-primary transition-colors block py-2"
+                    >
+                        {item.name}
+                    </a>
+                </div>
             {/each}
         </nav>
 
         <div
-            class="absolute bottom-12 left-0 right-0 flex justify-center gap-6 px-6"
+            class="absolute bottom-16 left-0 right-0 flex flex-col items-center gap-6 px-6 z-10"
         >
+            <div class="h-px w-12 bg-border/60"></div>
             <p
-                class="text-sm text-muted-foreground uppercase tracking-widest font-semibold"
+                class="text-xs text-muted-foreground uppercase tracking-[0.3em] font-bold"
             >
-                Building the future of web
+                {siteConfig.name}
             </p>
         </div>
     </div>
