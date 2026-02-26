@@ -1,5 +1,9 @@
 import nodemailer from 'nodemailer';
-import { GMAIL_USER, GMAIL_APP_PASSWORD, CONTACT_EMAIL } from '$env/static/private';
+import { env } from '$env/dynamic/private';
+const GMAIL_USER = env.GMAIL_USER;
+const GMAIL_APP_PASSWORD = env.GMAIL_APP_PASSWORD;
+const CONTACT_EMAIL = env.CONTACT_EMAIL;
+
 import { siteConfig } from '@/data.js';
 
 const transporter = nodemailer.createTransport({
