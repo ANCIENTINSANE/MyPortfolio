@@ -100,7 +100,7 @@
 <header
     bind:this={navElement}
     class={cn(
-        "fixed top-0 left-0 right-0 z-[150] transition-all duration-300 border-b",
+        "fixed top-0 left-0 right-0 z-[100] transition-all duration-300 border-b",
         isMenuOpen ? "bg-background border-border" : "",
         !isMenuOpen && scrolled
             ? "py-3 bg-background/70 backdrop-blur-xl border-border/40 shadow-sm"
@@ -145,7 +145,7 @@
             <ThemeToggle />
             <button
                 onclick={toggleMenu}
-                class="p-2 text-foreground z-[160] relative"
+                class="p-2 text-foreground z-[120] relative"
                 aria-label="Toggle Menu"
             >
                 <div
@@ -178,7 +178,7 @@
 <!-- Mobile Menu Overlay -->
 <div
     bind:this={mobileMenuOverlay}
-    class="fixed inset-0 z-[140] bg-white dark:bg-[#020617] flex-col items-center justify-center hidden opacity-0"
+    class="fixed inset-0 z-[90] bg-white dark:bg-[#020617] flex-col items-center justify-center hidden opacity-0"
     style="background-color: {isMenuOpen ? '' : ''};"
 >
     <div class="absolute inset-0 opacity-10 pointer-events-none">

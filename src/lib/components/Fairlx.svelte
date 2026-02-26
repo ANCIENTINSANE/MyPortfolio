@@ -287,12 +287,12 @@
 {#if isModalOpen}
     <!-- Modal Overlay -->
     <div
-        class="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 md:p-10"
+        class="fixed inset-0 z-[1000] flex items-center justify-center p-4 sm:p-6 md:p-10"
         transition:fade={{ duration: 300 }}
     >
         <!-- Backdrop -->
         <button
-            class="absolute inset-0 bg-background/80 backdrop-blur-xl cursor-default w-full h-full"
+            class="absolute inset-0 bg-background/95 backdrop-blur-2xl cursor-default w-full h-full"
             onclick={toggleModal}
             aria-label="Close modal"
         ></button>
