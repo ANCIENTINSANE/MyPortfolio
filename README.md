@@ -1,4 +1,4 @@
-# Premium Developer Portfolio • Founder & Systems Architect
+# Premium Developer Portfolio
 
 A high-performance, modern developer portfolio meticulously engineered to reflect a **Founder • Systems Engineer • SaaS Architect** brand identity.
 
