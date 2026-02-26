@@ -175,45 +175,46 @@
             </button>
         </div>
     </div>
+</header>
+
+<!-- Mobile Menu Overlay - Moved outside header for better stacking context -->
+<div
+    bind:this={mobileMenuOverlay}
+    class="fixed inset-0 z-[140] bg-white dark:bg-slate-950 flex-col items-center justify-center hidden opacity-0"
+>
+    <!-- Background decorative elements for the menu -->
+    <div class="absolute inset-0 opacity-10 pointer-events-none">
+        <div
+            class="absolute top-[10%] left-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
+        ></div>
+        <div
+            class="absolute bottom-[10%] right-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
+        ></div>
+    </div>
+
+    <nav class="flex flex-col items-center gap-10 px-6 text-center z-10">
+        {#each navItems as item, i}
+            <div class="overflow-hidden">
+                <a
+                    bind:this={mobileNavLinks[i]}
+                    href={item.href}
+                    onclick={(e) => handleMobileClick(e, item.href)}
+                    class="text-4xl sm:text-5xl font-bold tracking-tight hover:text-primary transition-colors block py-2"
+                >
+                    {item.name}
+                </a>
+            </div>
+        {/each}
+    </nav>
 
     <div
-        bind:this={mobileMenuOverlay}
-        class="fixed inset-0 z-[140] bg-white dark:bg-slate-950 flex-col items-center justify-center hidden opacity-0"
+        class="absolute bottom-16 left-0 right-0 flex flex-col items-center gap-6 px-6 z-10"
     >
-        <!-- Background decorative elements for the menu -->
-        <div class="absolute inset-0 opacity-10 pointer-events-none">
-            <div
-                class="absolute top-[10%] left-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
-            ></div>
-            <div
-                class="absolute bottom-[10%] right-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
-            ></div>
-        </div>
-
-        <nav class="flex flex-col items-center gap-10 px-6 text-center z-10">
-            {#each navItems as item, i}
-                <div class="overflow-hidden">
-                    <a
-                        bind:this={mobileNavLinks[i]}
-                        href={item.href}
-                        onclick={(e) => handleMobileClick(e, item.href)}
-                        class="text-4xl sm:text-5xl font-bold tracking-tight hover:text-primary transition-colors block py-2"
-                    >
-                        {item.name}
-                    </a>
-                </div>
-            {/each}
-        </nav>
-
-        <div
-            class="absolute bottom-16 left-0 right-0 flex flex-col items-center gap-6 px-6 z-10"
+        <div class="h-px w-12 bg-border/60"></div>
+        <p
+            class="text-xs text-muted-foreground uppercase tracking-[0.3em] font-bold"
         >
-            <div class="h-px w-12 bg-border/60"></div>
-            <p
-                class="text-xs text-muted-foreground uppercase tracking-[0.3em] font-bold"
-            >
-                {siteConfig.name}
-            </p>
-        </div>
+            {siteConfig.name}
+        </p>
     </div>
-</header>
+</div>
