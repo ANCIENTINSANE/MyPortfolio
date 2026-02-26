@@ -173,7 +173,7 @@
     <!-- Mobile Menu Overlay -->
     <div
         bind:this={mobileMenuOverlay}
-        class="fixed inset-0 z-[100] bg-background flex flex-col items-center justify-center hidden opacity-0"
+        class="fixed inset-0 z-[100] bg-background flex-col items-center justify-center hidden opacity-0"
     >
         <!-- Background decorative elements for the menu -->
         <div class="absolute inset-0 opacity-10 pointer-events-none">
