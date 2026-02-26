@@ -1,40 +1,67 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
+    darkMode: ["class"],
     content: ['./src/**/*.{html,js,svelte,ts}'],
+    safelist: ["dark"],
     theme: {
-        screens: {
-            '3xs': '320px',
-            // => @media (min-width: 640px) { ... }
-
-            '2xs': '375px',
-            // => @media (min-width: 640px) { ... }
-
-            'xs': '425px',
-            // => @media (min-width: 640px) { ... }
-
-            'sm': '640px',
-            // => @media (min-width: 640px) { ... }
-
-            'md': '768px',
-            // => @media (min-width: 768px) { ... }
-
-            '2md': '845px',
-            // => @media (min-width: 690px) { ... }
-
-            'lg': '1024px',
-            // => @media (min-width: 1024px) { ... }
-
-            'xl': '1280px',
-            // => @media (min-width: 1280px) { ... }
-
-            '2xl': '1440px',
-            // => @media (min-width: 1536px) { ... }
+        container: {
+            center: true,
+            padding: "2rem",
+            screens: {
+                "2xl": "1200px",
+            },
         },
         extend: {
-            fontFamily: {
-                GTAmericaExtendedRegular: "GT America Extended Regular",
+            colors: {
+                border: "hsl(var(--border) / <alpha-value>)",
+                input: "hsl(var(--input) / <alpha-value>)",
+                ring: "hsl(var(--ring) / <alpha-value>)",
+                background: "hsl(var(--background) / <alpha-value>)",
+                foreground: "hsl(var(--foreground) / <alpha-value>)",
+                primary: {
+                    DEFAULT: "hsl(var(--primary) / <alpha-value>)",
+                    foreground: "hsl(var(--primary-foreground) / <alpha-value>)",
+                },
+                secondary: {
+                    DEFAULT: "hsl(var(--secondary) / <alpha-value>)",
+                    foreground: "hsl(var(--secondary-foreground) / <alpha-value>)",
+                },
+                destructive: {
+                    DEFAULT: "hsl(var(--destructive) / <alpha-value>)",
+                    foreground: "hsl(var(--destructive-foreground) / <alpha-value>)",
+                },
+                muted: {
+                    DEFAULT: "hsl(var(--muted) / <alpha-value>)",
+                    foreground: "hsl(var(--muted-foreground) / <alpha-value>)",
+                },
+                accent: {
+                    DEFAULT: "hsl(var(--accent) / <alpha-value>)",
+                    foreground: "hsl(var(--accent-foreground) / <alpha-value>)",
+                },
+                popover: {
+                    DEFAULT: "hsl(var(--popover) / <alpha-value>)",
+                    foreground: "hsl(var(--popover-foreground) / <alpha-value>)",
+                },
+                card: {
+                    DEFAULT: "hsl(var(--card) / <alpha-value>)",
+                    foreground: "hsl(var(--card-foreground) / <alpha-value>)",
+                },
             },
-        }
+            borderRadius: {
+                "2xl": "1rem",
+                xl: "0.75rem",
+                lg: "0.5rem",
+                md: "0.375rem",
+                sm: "0.25rem",
+            },
+            fontFamily: {
+                sans: ["Inter", "sans-serif"],
+            },
+            spacing: {
+                "18": "4.5rem",
+                "22": "5.5rem",
+                "30": "7.5rem",
+            },
+        },
     },
-    plugins: []
 };
