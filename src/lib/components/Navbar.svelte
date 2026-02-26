@@ -9,8 +9,11 @@
 
     let { class: className = "" } = $props();
     let scrolled = $state(false);
+    let isMenuOpen = $state(false);
     let navElement: HTMLElement;
+    let mobileMenuOverlay: HTMLElement;
     let navLinks: HTMLElement[] = [];
+    let mobileNavLinks: HTMLElement[] = [];
 
     onMount(() => {
         // Entrance Animation
@@ -51,6 +54,47 @@
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     });
+
+    function toggleMenu() {
+        isMenuOpen = !isMenuOpen;
+
+        if (isMenuOpen) {
+            document.body.style.overflow = "hidden";
+            gsap.to(mobileMenuOverlay, {
+                display: "flex",
+                opacity: 1,
+                duration: 0.4,
+                ease: "power2.out",
+            });
+            gsap.fromTo(
+                mobileNavLinks,
+                { y: 20, opacity: 0 },
+                {
+                    y: 0,
+                    opacity: 1,
+                    duration: 0.5,
+                    stagger: 0.1,
+                    ease: "power3.out",
+                    delay: 0.2,
+                },
+            );
+        } else {
+            document.body.style.overflow = "";
+            gsap.to(mobileMenuOverlay, {
+                opacity: 0,
+                duration: 0.3,
+                ease: "power2.in",
+                onComplete: () => {
+                    gsap.set(mobileMenuOverlay, { display: "none" });
+                },
+            });
+        }
+    }
+
+    function handleMobileClick(e: MouseEvent, href: string) {
+        toggleMenu();
+        scrollToSection(e, href);
+    }
 </script>
 
 <header
@@ -95,6 +139,63 @@
 
         <div class="flex md:hidden items-center gap-4">
             <ThemeToggle />
+            <button
+                onclick={toggleMenu}
+                class="p-2 text-foreground z-[60] relative"
+                aria-label="Toggle Menu"
+            >
+                <div
+                    class="w-6 h-5 flex flex-col justify-between items-center relative overflow-hidden"
+                >
+                    <span
+                        class={cn(
+                            "w-6 h-0.5 bg-current transition-all duration-300 origin-center",
+                            isMenuOpen ? "rotate-45 translate-y-[9px]" : "",
+                        )}
+                    ></span>
+                    <span
+                        class={cn(
+                            "w-6 h-0.5 bg-current transition-all duration-300",
+                            isMenuOpen ? "opacity-0 -translate-x-full" : "",
+                        )}
+                    ></span>
+                    <span
+                        class={cn(
+                            "w-6 h-0.5 bg-current transition-all duration-300 origin-center",
+                            isMenuOpen ? "-rotate-45 -translate-y-[9px]" : "",
+                        )}
+                    ></span>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div
+        bind:this={mobileMenuOverlay}
+        class="fixed inset-0 z-[55] bg-background/95 backdrop-blur-2xl hidden flex-col items-center justify-center opacity-0"
+    >
+        <nav class="flex flex-col items-center gap-8 px-6 text-center">
+            {#each navItems as item, i}
+                <a
+                    bind:this={mobileNavLinks[i]}
+                    href={item.href}
+                    onclick={(e) => handleMobileClick(e, item.href)}
+                    class="text-3xl font-bold tracking-tighter hover:text-primary transition-colors"
+                >
+                    {item.name}
+                </a>
+            {/each}
+        </nav>
+
+        <div
+            class="absolute bottom-12 left-0 right-0 flex justify-center gap-6 px-6"
+        >
+            <p
+                class="text-sm text-muted-foreground uppercase tracking-widest font-semibold"
+            >
+                Building the future of web
+            </p>
         </div>
     </div>
 </header>
