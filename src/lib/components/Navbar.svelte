@@ -100,10 +100,16 @@
 <header
     bind:this={navElement}
     class={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b",
-        scrolled
+        "fixed top-0 left-0 right-0 transition-all duration-300 border-b",
+        isMenuOpen
+            ? "z-[150] py-3 bg-background border-border shadow-none"
+            : "z-50",
+        scrolled && !isMenuOpen
             ? "py-3 bg-background/70 backdrop-blur-xl border-border/40 shadow-sm"
-            : "py-5 bg-transparent border-transparent",
+            : "",
+        !scrolled && !isMenuOpen
+            ? "py-5 bg-transparent border-transparent"
+            : "",
         className,
     )}
 >
@@ -170,10 +176,9 @@
         </div>
     </div>
 
-    <!-- Mobile Menu Overlay -->
     <div
         bind:this={mobileMenuOverlay}
-        class="fixed inset-0 z-[100] bg-background flex-col items-center justify-center hidden opacity-0"
+        class="fixed inset-0 z-[140] bg-white dark:bg-slate-950 flex-col items-center justify-center hidden opacity-0"
     >
         <!-- Background decorative elements for the menu -->
         <div class="absolute inset-0 opacity-10 pointer-events-none">
