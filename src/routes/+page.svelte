@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { siteConfig } from "$lib/data";
   import Hero from "$lib/components/Hero.svelte";
   import About from "$lib/components/About.svelte";
   import Fairlx from "$lib/components/Fairlx.svelte";
@@ -12,11 +13,33 @@
 </script>
 
 <svelte:head>
-  <title>Surendra Kumar M | Founder & Systems Architect</title>
+  <title>{siteConfig.name} | Founder & Systems Architect</title>
+  <meta name="description" content={siteConfig.description} />
   <meta
-    name="description"
-    content="Founder and Systems Architect building scalable, AI-powered SaaS products with automation-first design and usage-based architecture."
+    name="keywords"
+    content="Surendra Kumar M, Systems Architect, Founder, Full-Stack Developer, SaaS Engineer, Svelte, Next.js, AI Engineering, Scalable Architecture"
   />
+  <link rel="canonical" href={siteConfig.url} />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={siteConfig.url} />
+  <meta
+    property="og:title"
+    content={`${siteConfig.name} | Founder & Systems Architect`}
+  />
+  <meta property="og:description" content={siteConfig.description} />
+  <meta property="og:image" content={`${siteConfig.url}/my-avatar.png`} />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content={siteConfig.url} />
+  <meta
+    property="twitter:title"
+    content={`${siteConfig.name} | Founder & Systems Architect`}
+  />
+  <meta property="twitter:description" content={siteConfig.description} />
+  <meta property="twitter:image" content={`${siteConfig.url}/my-avatar.png`} />
 </svelte:head>
 
 <div class="flex flex-col">

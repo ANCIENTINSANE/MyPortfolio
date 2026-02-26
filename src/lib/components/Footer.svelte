@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { footerContent, navItems } from "$lib/data";
+    import { footerContent, navItems, siteConfig } from "$lib/data";
     import { Button } from "./ui/button";
     import {
         Github,
@@ -97,6 +97,11 @@
                     {footerContent.brand.name}<span class="text-primary">/</span
                     >{footerContent.brand.suffix}
                 </span>
+                <p
+                    class="text-xs text-muted-foreground mt-2 max-w-[200px] leading-relaxed hidden md:block"
+                >
+                    {siteConfig.description}
+                </p>
             </a>
 
             <!-- Navigation (same as Navbar) -->
