@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { siteConfig } from "@/data.js";
-    import { Button } from "./ui/button/index.js";
+    import { siteConfig } from "@/data";
+    import { Button } from "./ui/button";
     import {
         Mail,
         Linkedin,
@@ -11,8 +11,8 @@
         CheckCircle2,
         AlertCircle,
     } from "lucide-svelte";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
     import { enhance } from "$app/forms";
     import type { ActionData } from "../../routes/$types";
 

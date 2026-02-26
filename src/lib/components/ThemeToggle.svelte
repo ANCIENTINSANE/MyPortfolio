@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { Sun, Moon } from "lucide-svelte";
-    import { Button } from "./ui/button/index.js";
+    import { Button } from "./ui/button";
 
     type ThemeMode = "light" | "dark" | "system";
     let mode = $state<ThemeMode>("system");

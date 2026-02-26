@@ -1,10 +1,11 @@
 <script lang="ts">
-    import { Button } from "./ui/button/index.js";
+    import { Button } from "./ui/button";
     import ThemeToggle from "./ThemeToggle.svelte";
-    import { siteConfig, navItems } from "$lib/data.js";
-    import { cn, scrollToSection } from "@/utils.js";
+    import { siteConfig, navItems } from "$lib/data";
+    import { cn, scrollToSection } from "@/utils";
     import { onMount } from "svelte";
-    import gsap from "gsap";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
 
     let { class: className = "" } = $props();
     let scrolled = $state(false);

@@ -2,12 +2,12 @@
   import "../app.css";
   import { onMount, tick } from "svelte";
   import Lenis from "lenis";
-  import gsap from "gsap";
-  import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-  import { ScrollToPlugin } from "gsap/dist/ScrollToPlugin";
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  import { ScrollToPlugin } from "gsap/ScrollToPlugin";
   import Navbar from "$lib/components/Navbar.svelte";
   import Footer from "$lib/components/Footer.svelte";
-  import { siteConfig } from "$lib/data.js";
+  import { siteConfig } from "$lib/data";
   import { Motion } from "svelte-motion";
 
   let { children } = $props();

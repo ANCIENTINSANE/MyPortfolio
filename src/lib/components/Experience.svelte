@@ -1,16 +1,11 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { experience } from "@/data.js";
-    import {
-        Card,
-        CardHeader,
-        CardTitle,
-        CardContent,
-    } from "./ui/card/index.js";
-    import { Badge } from "./ui/badge/index.js";
+    import { experience } from "@/data";
+    import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
+    import { Badge } from "./ui/badge";
     import { Building2, CheckCircle2 } from "lucide-svelte";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
 
     let experienceSection: HTMLElement;
     let header: HTMLElement;

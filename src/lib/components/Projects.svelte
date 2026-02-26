@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { projects } from "@/data.js";
+    import { projects } from "@/data";
     import {
         Card,
         CardHeader,
@@ -8,12 +8,12 @@
         CardDescription,
         CardContent,
         CardFooter,
-    } from "./ui/card/index.js";
-    import { Badge } from "./ui/badge/index.js";
-    import { Button } from "./ui/button/index.js";
+    } from "./ui/card";
+    import { Badge } from "./ui/badge";
+    import { Button } from "./ui/button";
     import { Github, ArrowUpRight, Monitor, Code2 } from "lucide-svelte";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
 
     let projectSection: HTMLElement;
     let header: HTMLElement;

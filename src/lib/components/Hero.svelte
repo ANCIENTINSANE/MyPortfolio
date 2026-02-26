@@ -1,11 +1,11 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { Button } from "./ui/button/index.js";
-    import { heroContent, siteConfig } from "@/data.js";
-    import { cn, scrollToSection } from "@/utils.js";
+    import { Button } from "./ui/button";
+    import { heroContent, siteConfig } from "@/data";
+    import { cn, scrollToSection } from "@/utils";
     import { ArrowRight, ChevronRight } from "lucide-svelte";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
 
     let heroSection: HTMLElement;
     let badge: HTMLElement;

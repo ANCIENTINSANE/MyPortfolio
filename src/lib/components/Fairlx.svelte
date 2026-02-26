@@ -1,10 +1,10 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { Button } from "./ui/button/index.js";
-    import { Card } from "./ui/card/index.js";
-    import { Badge } from "./ui/badge/index.js";
-    import { fairlxContent } from "@/data.js";
-    import { cn, scrollToSection } from "@/utils.js";
+    import { Button } from "./ui/button";
+    import { Card } from "./ui/card";
+    import { Badge } from "./ui/badge";
+    import { fairlxContent } from "@/data";
+    import { cn, scrollToSection } from "@/utils";
     import {
         ExternalLink,
         Sparkles,

@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { footerContent, navItems } from "$lib/data.js";
-    import { Button } from "./ui/button/index.js";
+    import { footerContent, navItems } from "$lib/data";
+    import { Button } from "./ui/button";
     import {
         Github,
         Linkedin,
@@ -9,8 +9,8 @@
         Twitter,
         MessageSquare,
     } from "lucide-svelte";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
 
     // Map icon names from data to components
     const iconMap: Record<string, any> = {

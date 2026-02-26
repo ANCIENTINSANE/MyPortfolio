@@ -1,15 +1,10 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { aboutContent } from "@/data.js";
-    import {
-        Card,
-        CardHeader,
-        CardTitle,
-        CardContent,
-    } from "./ui/card/index.js";
+    import { aboutContent } from "@/data";
+    import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
     import { Lightbulb, Code2, Rocket, ArrowUpRight } from "lucide-svelte";
-    import gsap from "gsap";
-    import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+    import { gsap } from "gsap";
+    import { ScrollTrigger } from "gsap/ScrollTrigger";
 
     let aboutSection: HTMLElement;
     let title: HTMLElement;

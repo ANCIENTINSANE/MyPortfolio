@@ -4,7 +4,7 @@ const GMAIL_USER = env.GMAIL_USER;
 const GMAIL_APP_PASSWORD = env.GMAIL_APP_PASSWORD;
 const CONTACT_EMAIL = env.CONTACT_EMAIL;
 
-import { siteConfig } from '@/data.js';
+import { siteConfig } from '@/data';
 
 const transporter = nodemailer.createTransport({
     service: 'gmail',

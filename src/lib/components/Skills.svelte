@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { skills } from "@/data.js";
-    import { Badge } from "./ui/badge/index.js";
+    import { skills } from "@/data";
+    import { Badge } from "./ui/badge";
     import {
         Monitor,
         Server,
