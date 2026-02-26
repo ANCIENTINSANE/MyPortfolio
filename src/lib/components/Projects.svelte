@@ -90,15 +90,15 @@
 <section
     id="projects"
     bind:this={projectSection}
-    class="py-32 relative overflow-hidden bg-muted/20"
+    class="py-20 sm:py-32 relative overflow-hidden bg-muted/20"
 >
-    <div class="container relative z-10">
-        <div bind:this={header} class="space-y-4 mb-20 text-center">
+    <div class="container relative z-10 px-6 sm:px-8">
+        <div bind:this={header} class="space-y-4 mb-12 sm:mb-20 text-center">
             <h2 class="text-3xl font-bold tracking-tight sm:text-5xl">
                 Featured Works
             </h2>
             <p
-                class="text-xl text-muted-foreground font-medium max-w-2xl mx-auto"
+                class="text-lg sm:text-xl text-muted-foreground font-medium max-w-2xl mx-auto"
             >
                 A selection of high-performance products and engineering
                 experiments.
@@ -106,7 +106,9 @@
             <div class="mx-auto h-1.5 w-20 bg-primary rounded-full mt-6"></div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10"
+        >
             {#each projects as project, i}
                 {@const Icon = i % 2 === 0 ? Monitor : Code2}
                 <div bind:this={cardItems[i]} class="group h-full">
@@ -162,7 +164,7 @@
                                 </a>
                             </div>
                             <CardDescription
-                                class="text-lg leading-relaxed font-medium line-clamp-3"
+                                class="text-base sm:text-lg leading-relaxed font-medium line-clamp-3"
                             >
                                 {project.description}
                             </CardDescription>

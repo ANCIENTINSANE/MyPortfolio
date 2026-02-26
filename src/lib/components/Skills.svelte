@@ -152,22 +152,22 @@
 <section
     id="skills"
     bind:this={skillsSection}
-    class="py-32 relative overflow-hidden bg-background"
+    class="py-20 sm:py-32 relative overflow-hidden bg-background"
 >
     <!-- Background Decor -->
     <div
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-[120px] -z-10"
     ></div>
 
-    <div class="container relative z-10">
-        <div bind:this={header} class="space-y-4 mb-20 text-center">
+    <div class="container relative z-10 px-6 sm:px-8">
+        <div bind:this={header} class="space-y-4 mb-12 sm:mb-20 text-center">
             <h2
                 class="text-3xl font-black tracking-tighter sm:text-6xl uppercase"
             >
                 Technical <span class="text-primary">Arsenal</span>
             </h2>
             <p
-                class="text-xl text-muted-foreground font-medium max-w-2xl mx-auto leading-relaxed"
+                class="text-lg sm:text-xl text-muted-foreground font-medium max-w-2xl mx-auto leading-relaxed"
             >
                 Engineering high-performance systems with a curated selection of
                 modern tools and industrial-grade frameworks.
@@ -181,25 +181,25 @@
             {#each skillCategories as category, i}
                 <div
                     bind:this={categoryCards[i]}
-                    class="group relative p-8 rounded-[2rem] border border-border/40 bg-card/30 backdrop-blur-sm hover:bg-card/60 transition-all duration-700 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/10 h-full overflow-hidden"
+                    class="group relative p-6 sm:p-8 rounded-[1.5rem] sm:rounded-[2rem] border border-border/40 bg-card/30 backdrop-blur-sm hover:bg-card/60 transition-all duration-700 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/10 h-full overflow-hidden"
                 >
                     <!-- Gloss effect -->
                     <div
                         class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
                     ></div>
 
-                    <div class="flex items-center gap-5 mb-10">
+                    <div class="flex items-center gap-4 sm:gap-5 mb-8 sm:mb-10">
                         <div
-                            class="flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-500 shadow-inner"
+                            class="flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-xl sm:rounded-2xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-500 shadow-inner"
                         >
                             <svelte:component
                                 this={category.Icon}
-                                size={28}
+                                size={24}
                                 strokeWidth={2.5}
                             />
                         </div>
                         <h3
-                            class="text-2xl font-black tracking-tight uppercase"
+                            class="text-xl sm:text-2xl font-black tracking-tight uppercase"
                         >
                             {category.name}
                         </h3>
@@ -210,7 +210,7 @@
                             {@const SkillIcon = iconMap[skill.icon] || Zap}
                             <Badge
                                 variant="outline"
-                                class="flex items-center gap-2 text-[0.9rem] px-4 py-2 border-border/50 font-bold bg-background/50 group-hover:border-primary/30 transition-all hover:bg-primary/5 hover:text-primary hover:scale-105"
+                                class="flex items-center gap-2 text-[0.8rem] sm:text-[0.9rem] px-3 py-1.5 sm:px-4 sm:py-2 border-border/50 font-bold bg-background/50 group-hover:border-primary/30 transition-all hover:bg-primary/5 hover:text-primary hover:scale-105"
                             >
                                 <SkillIcon size={14} strokeWidth={3} />
                                 {skill.name}

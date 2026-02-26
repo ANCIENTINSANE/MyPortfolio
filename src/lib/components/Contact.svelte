@@ -106,10 +106,12 @@
 <section
     id="contact"
     bind:this={contactSection}
-    class="py-32 relative overflow-hidden"
+    class="py-20 sm:py-32 relative overflow-hidden"
 >
-    <div class="container relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+    <div class="container relative z-10 px-6 sm:px-8">
+        <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center"
+        >
             <div class="space-y-12">
                 <div bind:this={header} class="space-y-6">
                     <h2
@@ -120,7 +122,7 @@
                         > together.
                     </h2>
                     <p
-                        class="text-xl text-muted-foreground font-medium max-w-lg leading-relaxed"
+                        class="text-lg sm:text-xl text-muted-foreground font-medium max-w-lg leading-relaxed"
                     >
                         Whether you're starting a new product at Stemlen Pvt Ltd
                         or need help scaling your systems, my door is always
@@ -132,33 +134,36 @@
                     <a
                         bind:this={contactCards[0]}
                         href={`mailto:${siteConfig.links.email}`}
-                        class="group flex items-center gap-6 p-6 rounded-3xl border border-border/40 bg-background hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5"
+                        class="group flex items-center gap-4 sm:gap-6 p-5 sm:p-6 rounded-2xl sm:rounded-3xl border border-border/40 bg-background hover:border-primary/30 transition-all hover:shadow-xl hover:shadow-primary/5 overflow-hidden"
                     >
                         <div
-                            class="p-4 rounded-2xl bg-primary/5 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300"
+                            class="p-3.5 sm:p-4 rounded-xl sm:rounded-2xl bg-primary/5 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 shrink-0"
                         >
-                            <Mail class="h-7 w-7" />
+                            <Mail class="h-6 w-6 sm:h-7 sm:w-7" />
                         </div>
-                        <div class="space-y-1">
+                        <div class="space-y-0.5 min-w-0">
                             <p
-                                class="text-sm font-semibold text-muted-foreground uppercase tracking-wider"
+                                class="text-[10px] sm:text-sm font-semibold text-muted-foreground uppercase tracking-wider"
                             >
                                 Email Me
                             </p>
-                            <p class="text-2xl font-bold">
+                            <p class="text-lg sm:text-2xl font-bold truncate">
                                 {siteConfig.links.email}
                             </p>
                         </div>
                     </a>
 
-                    <div bind:this={contactCards[1]} class="flex gap-4">
+                    <div
+                        bind:this={contactCards[1]}
+                        class="flex flex-wrap gap-4"
+                    >
                         <Button
                             href={siteConfig.links.linkedin}
                             target="_blank"
                             rel="noopener noreferrer"
                             variant="outline"
                             size="lg"
-                            class="rounded-3xl border-border/40 hover:border-primary/30 gap-3 px-8"
+                            class="flex-1 sm:flex-none rounded-2xl sm:rounded-3xl border-border/40 hover:border-primary/30 gap-3 px-6 sm:px-8 h-12 sm:h-14"
                         >
                             <Linkedin class="h-5 w-5" /> LinkedIn
                         </Button>
@@ -168,7 +173,7 @@
                             rel="noopener noreferrer"
                             variant="outline"
                             size="lg"
-                            class="rounded-3xl border-border/40 hover:border-primary/30 gap-3 px-8"
+                            class="flex-1 sm:flex-none rounded-2xl sm:rounded-3xl border-border/40 hover:border-primary/30 gap-3 px-6 sm:px-8 h-12 sm:h-14"
                         >
                             <Globe class="h-5 w-5" /> GitHub
                         </Button>
@@ -181,7 +186,7 @@
                 class="relative p-1 rounded-[2.5rem] bg-gradient-to-br from-primary/20 via-transparent to-primary/20"
             >
                 <div
-                    class="bg-background rounded-[2.25rem] p-10 space-y-8 border border-border/40 shadow-2xl"
+                    class="bg-background rounded-[2rem] sm:rounded-[2.25rem] p-6 sm:p-10 space-y-8 border border-border/40 shadow-2xl"
                 >
                     <div class="space-y-2">
                         <h3 class="text-2xl font-bold tracking-tight">

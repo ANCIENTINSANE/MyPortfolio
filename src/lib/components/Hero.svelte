@@ -109,7 +109,7 @@
 
 <section
     bind:this={heroSection}
-    class="relative flex min-h-screen items-center justify-center overflow-hidden py-32 text-center"
+    class="relative flex min-h-screen items-center justify-center overflow-hidden py-24 sm:py-32 text-center"
 >
     <!-- Premium Mesh Background -->
     <div class="absolute inset-0 -z-10 pointer-events-none overflow-hidden">
@@ -129,7 +129,7 @@
     <div class="container relative z-10 flex flex-col items-center">
         <div
             bind:this={badge}
-            class="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 backdrop-blur-md px-4 py-2 sm:px-6 sm:py-2.5 text-[10px] xs:text-xs sm:text-sm font-bold text-primary mb-12 shadow-sm text-center"
+            class="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 backdrop-blur-md px-4 py-2 sm:px-6 sm:py-2.5 text-[10px] xs:text-xs sm:text-sm font-bold text-primary mb-8 sm:mb-12 shadow-sm text-center"
         >
             <span
                 class="mr-2 sm:mr-3 flex h-1.5 w-1.5 sm:h-2 sm:w-2 rounded-full bg-primary animate-pulse shrink-0"
@@ -141,7 +141,7 @@
 
         <h1
             bind:this={title}
-            class="max-w-5xl text-4xl font-extrabold tracking-tighter sm:text-6xl lg:text-7xl xl:text-8xl mb-10 leading-[1.1]"
+            class="max-w-5xl text-4xl font-extrabold tracking-tighter sm:text-6xl lg:text-7xl xl:text-8xl mb-8 sm:mb-10 leading-[1.1]"
         >
             <span
                 class="bg-gradient-to-b from-foreground via-foreground to-foreground/50 bg-clip-text text-transparent inline-block pb-2"

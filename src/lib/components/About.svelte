@@ -116,10 +116,12 @@
 <section
     id="about"
     bind:this={aboutSection}
-    class="py-32 relative overflow-hidden"
+    class="py-20 sm:py-32 relative overflow-hidden"
 >
-    <div class="container relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
+    <div class="container relative z-10 px-6 sm:px-8">
+        <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start"
+        >
             <!-- Narrative Column -->
             <div class="space-y-12">
                 <div bind:this={title} class="space-y-6">
@@ -129,11 +131,11 @@
                     <div class="h-1.5 w-20 bg-primary rounded-full"></div>
                 </div>
 
-                <div class="space-y-8">
+                <div class="space-y-6 sm:space-y-8">
                     {#each aboutContent.narrative as paragraph, i}
                         <p
                             bind:this={narrativeParagraphs[i]}
-                            class="text-xl text-muted-foreground leading-relaxed font-medium"
+                            class="text-lg sm:text-xl text-muted-foreground leading-relaxed font-medium"
                         >
                             {paragraph}
                         </p>
@@ -156,10 +158,10 @@
                 {#each aboutContent.expertise as skill, i}
                     <div bind:this={skillCards[i]}>
                         <Card
-                            class="group hover:border-primary/30 transition-all duration-300"
+                            class="group hover:border-primary/30 transition-all duration-300 bg-background/50 backdrop-blur-sm"
                         >
                             <CardHeader
-                                class="flex flex-row items-center gap-4 space-y-0"
+                                class="flex flex-row items-center gap-4 space-y-0 p-5 sm:p-6"
                             >
                                 <div
                                     class="p-3 rounded-2xl bg-primary/5 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300"
@@ -175,9 +177,9 @@
                                     {skill.title}
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent>
+                            <CardContent class="p-5 sm:p-6 pt-0">
                                 <p
-                                    class="text-muted-foreground text-lg leading-relaxed"
+                                    class="text-muted-foreground text-base sm:text-lg leading-relaxed"
                                 >
                                     {skill.description}
                                 </p>

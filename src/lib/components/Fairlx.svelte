@@ -149,17 +149,17 @@
 <section
     id="fairlx"
     bind:this={fairlxSection}
-    class="py-24 relative overflow-hidden bg-background transition-colors duration-500"
+    class="py-20 sm:py-24 relative overflow-hidden bg-background transition-colors duration-500"
 >
     <!-- Liquid Background Gradient -->
     <div
         class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_50%_120%,rgba(var(--primary),0.15),transparent)] dark:bg-[radial-gradient(circle_at_50%_120%,rgba(var(--primary),0.1),transparent)] opacity-70"
     ></div>
 
-    <div class="container relative z-10">
+    <div class="container relative z-10 px-6 sm:px-8">
         <div
             bind:this={header}
-            class="flex flex-col items-center text-center mb-16"
+            class="flex flex-col items-center text-center mb-12 sm:mb-16"
         >
             <Badge
                 variant="outline"
@@ -171,7 +171,7 @@
                 {fairlxContent.title}<span class="text-primary">.</span>
             </h2>
             <p
-                class="text-lg text-muted-foreground max-w-xl font-medium leading-relaxed"
+                class="text-lg sm:text-xl text-muted-foreground max-w-xl font-medium leading-relaxed"
             >
                 {fairlxContent.subtitle}
             </p>

@@ -81,14 +81,16 @@
 <section
     id="experience"
     bind:this={experienceSection}
-    class="py-32 relative overflow-hidden"
+    class="py-20 sm:py-32 relative overflow-hidden"
 >
-    <div class="container relative z-10">
-        <div bind:this={header} class="space-y-4 mb-20 text-left">
+    <div class="container relative z-10 px-6 sm:px-8">
+        <div bind:this={header} class="space-y-4 mb-12 sm:mb-20 text-left">
             <h2 class="text-3xl font-bold tracking-tight sm:text-5xl">
                 Professional Journey
             </h2>
-            <p class="text-xl text-muted-foreground font-medium max-w-2xl">
+            <p
+                class="text-lg sm:text-xl text-muted-foreground font-medium max-w-2xl"
+            >
                 Building scalable systems and leading technical initiatives
                 across diverse industries.
             </p>
@@ -106,32 +108,34 @@
                         ></div>
 
                         <CardHeader
-                            class="flex flex-col md:flex-row md:items-start justify-between gap-6 pb-8"
+                            class="flex flex-col md:flex-row md:items-start justify-between gap-6 pb-6 sm:pb-8 p-6 sm:p-8"
                         >
                             <div class="space-y-4">
                                 <div class="flex flex-wrap items-center gap-3">
                                     <Badge
                                         variant="outline"
-                                        class="px-4 py-1 border-primary/20 text-primary bg-primary/5 font-bold"
+                                        class="px-3 py-1 sm:px-4 sm:py-1 border-primary/20 text-primary bg-primary/5 font-bold text-[10px] sm:text-xs"
                                     >
                                         {item.duration}
                                     </Badge>
                                     <div
-                                        class="flex items-center gap-2 text-muted-foreground text-sm font-semibold uppercase tracking-wider"
+                                        class="flex items-center gap-2 text-muted-foreground text-[10px] sm:text-sm font-semibold uppercase tracking-wider"
                                     >
-                                        <Building2 class="h-4 w-4" />
+                                        <Building2
+                                            class="h-3.5 w-3.5 sm:h-4 sm:w-4"
+                                        />
                                         {item.company}
                                     </div>
                                 </div>
                                 <CardTitle
-                                    class="text-3xl font-extrabold tracking-tight group-hover:text-primary transition-colors"
+                                    class="text-2xl sm:text-3xl font-extrabold tracking-tight group-hover:text-primary transition-colors"
                                 >
                                     {item.role}
                                 </CardTitle>
                             </div>
                         </CardHeader>
 
-                        <CardContent>
+                        <CardContent class="p-6 sm:p-8 pt-0">
                             <ul
                                 class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4"
                             >
@@ -140,10 +144,12 @@
                                         <div
                                             class="mt-1.5 p-1 rounded-full bg-primary/10 text-primary shrink-0 transition-transform group-hover:scale-110"
                                         >
-                                            <CheckCircle2 class="h-3.5 w-3.5" />
+                                            <CheckCircle2
+                                                class="h-3 sm:h-3.5 w-3 sm:w-3.5"
+                                            />
                                         </div>
                                         <span
-                                            class="text-[1.05rem] text-muted-foreground font-medium leading-relaxed"
+                                            class="text-sm sm:text-[1.05rem] text-muted-foreground font-medium leading-relaxed"
                                         >
                                             {bullet}
                                         </span>
