@@ -100,14 +100,12 @@
 <header
     bind:this={navElement}
     class={cn(
-        "fixed top-0 left-0 right-0 transition-all duration-300 border-b",
-        isMenuOpen
-            ? "z-[150] py-3 bg-background border-border shadow-none"
-            : "z-50",
-        scrolled && !isMenuOpen
+        "fixed top-0 left-0 right-0 z-[150] transition-all duration-300 border-b",
+        isMenuOpen ? "bg-background border-border" : "",
+        !isMenuOpen && scrolled
             ? "py-3 bg-background/70 backdrop-blur-xl border-border/40 shadow-sm"
             : "",
-        !scrolled && !isMenuOpen
+        !isMenuOpen && !scrolled
             ? "py-5 bg-transparent border-transparent"
             : "",
         className,
@@ -147,7 +145,7 @@
             <ThemeToggle />
             <button
                 onclick={toggleMenu}
-                class="p-2 text-foreground z-[110] relative"
+                class="p-2 text-foreground z-[160] relative"
                 aria-label="Toggle Menu"
             >
                 <div
@@ -177,42 +175,51 @@
     </div>
 </header>
 
-<!-- Mobile Menu Overlay - Moved outside header for better stacking context -->
+<!-- Mobile Menu Overlay -->
 <div
     bind:this={mobileMenuOverlay}
-    class="fixed inset-0 z-[140] bg-white dark:bg-slate-950 flex-col items-center justify-center hidden opacity-0"
+    class="fixed inset-0 z-[140] bg-white dark:bg-[#020617] flex-col items-center justify-center hidden opacity-0"
+    style="background-color: {isMenuOpen ? '' : ''};"
 >
-    <!-- Background decorative elements for the menu -->
     <div class="absolute inset-0 opacity-10 pointer-events-none">
         <div
             class="absolute top-[10%] left-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
         ></div>
         <div
-            class="absolute bottom-[10%] right-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
+            class="absolute bottom-[20%] right-[10%] w-64 h-64 bg-primary rounded-full blur-[120px]"
         ></div>
     </div>
 
-    <nav class="flex flex-col items-center gap-10 px-6 text-center z-10">
-        {#each navItems as item, i}
-            <div class="overflow-hidden">
-                <a
-                    bind:this={mobileNavLinks[i]}
-                    href={item.href}
-                    onclick={(e) => handleMobileClick(e, item.href)}
-                    class="text-4xl sm:text-5xl font-bold tracking-tight hover:text-primary transition-colors block py-2"
-                >
-                    {item.name}
-                </a>
-            </div>
-        {/each}
-    </nav>
+    <div
+        class="flex flex-col items-center gap-8 px-6 text-center z-10 w-full mb-12"
+    >
+        <p
+            class="text-xs text-muted-foreground uppercase tracking-[0.4em] font-bold mb-4 opacity-50"
+        >
+            Navigation
+        </p>
+        <nav class="flex flex-col items-center gap-6">
+            {#each navItems as item, i}
+                <div class="overflow-hidden">
+                    <a
+                        bind:this={mobileNavLinks[i]}
+                        href={item.href}
+                        onclick={(e) => handleMobileClick(e, item.href)}
+                        class="text-4xl font-bold tracking-tight hover:text-primary transition-colors block py-1"
+                    >
+                        {item.name}
+                    </a>
+                </div>
+            {/each}
+        </nav>
+    </div>
 
     <div
-        class="absolute bottom-16 left-0 right-0 flex flex-col items-center gap-6 px-6 z-10"
+        class="absolute bottom-16 left-0 right-0 flex flex-col items-center gap-4 px-6 z-10"
     >
-        <div class="h-px w-12 bg-border/60"></div>
+        <div class="h-px w-8 bg-border/60"></div>
         <p
-            class="text-xs text-muted-foreground uppercase tracking-[0.3em] font-bold"
+            class="text-[10px] text-muted-foreground uppercase tracking-[0.5em] font-bold"
         >
             {siteConfig.name}
         </p>
